@@ -8,6 +8,9 @@
  "silencio_inicio_s": 0.02,
  "silencio_final_s": 0.14,
  "piso_ruido_db_rel": -74.42121887207031,
+ "f0_picos_pct": 2.0930232558139537,
+ "f0_fry_pct": 1.3953488372093024,
+ "salto_volumen_db": 6.332285341199725,
  "f0_mediana_hz": 134.64775839790207,
  "f0_std_st": 3.5478996352598915,
  "f0_rango_st": 11.75471975150867,
@@ -82,112 +85,128 @@
    "punt": ".",
    "dur": 1.07,
    "en_s": 2.42,
-   "rara": false
+   "rara": false,
+   "_idx": 7
   },
   {
    "tras": "teléfono",
    "punt": "...",
    "dur": 0.84,
    "en_s": 5.57,
-   "rara": false
+   "rara": false,
+   "_idx": 13
   },
   {
    "tras": "notificación",
    "punt": ".",
    "dur": 0.76,
    "en_s": 8.3,
-   "rara": false
+   "rara": false,
+   "_idx": 18
   },
   {
    "tras": "desbloqueas",
    "punt": ",",
    "dur": 0.58,
    "en_s": 10.25,
-   "rara": false
+   "rara": false,
+   "_idx": 20
   },
   {
    "tras": "nueva",
    "punt": ".",
    "dur": 0.85,
    "en_s": 12.85,
-   "rara": false
+   "rara": false,
+   "_idx": 28
   },
   {
    "tras": "tú",
    "punt": ".",
    "dur": 1.51,
    "en_s": 14.21,
-   "rara": false
+   "rara": false,
+   "_idx": 30
   },
   {
    "tras": "Dormido",
    "punt": ".",
    "dur": 0.72,
    "en_s": 16.25,
-   "rara": false
+   "rara": false,
+   "_idx": 31
   },
   {
    "tras": "minutos",
    "punt": "...",
    "dur": 0.66,
    "en_s": 18.79,
-   "rara": false
+   "rara": false,
+   "_idx": 35
   },
   {
    "tras": "habitación",
    "punt": ". ¿",
    "dur": 0.97,
    "en_s": 20.98,
-   "rara": false
+   "rara": false,
+   "_idx": 40
   },
   {
    "tras": "Paranoia",
    "punt": "?",
    "dur": 1.12,
    "en_s": 22.5,
-   "rara": false
+   "rara": false,
+   "_idx": 41
   },
   {
    "tras": "vez",
    "punt": ".",
    "dur": 0.9,
    "en_s": 24.3,
-   "rara": false
+   "rara": false,
+   "_idx": 43
   },
   {
    "tras": "hoy",
    "punt": "",
    "dur": 0.34,
    "en_s": 26.53,
-   "rara": true
+   "rara": true,
+   "_idx": 50
   },
   {
    "tras": "manera",
    "punt": ".",
    "dur": 0.86,
    "en_s": 29.28,
-   "rara": false
+   "rara": false,
+   "_idx": 60
   },
   {
    "tras": "final",
    "punt": ",",
    "dur": 0.74,
    "en_s": 31.33,
-   "rara": false
+   "rara": false,
+   "_idx": 64
   },
   {
    "tras": "descubrir",
    "punt": "",
    "dur": 0.48,
    "en_s": 33.95,
-   "rara": true
+   "rara": true,
+   "_idx": 71
   },
   {
    "tras": "él",
    "punt": ".",
    "dur": 1.03,
    "en_s": 36.23,
-   "rara": false
+   "rara": false,
+   "_idx": 78
   }
  ],
  "pausas_raras": 2,
@@ -197,9 +216,10 @@
   "nisqa_tts_media=3.653 (objetivo >= 4.0)",
   "nisqa_tts_peor_ventana=3.163 (objetivo >= 3.6)",
   "jitter_pct=2.647 (objetivo <= 2.0)",
+  "f0_picos_pct=2.093 (objetivo <= 1.5)",
   "pausas_raras=2.000 (objetivo <= 0)",
   "pausa_max_s=1.510 (objetivo <= 1.3)"
  ],
  "aprobado": false,
- "puntuacion": 16.777
+ "puntuacion": 16.527
 }

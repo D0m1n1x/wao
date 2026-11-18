@@ -1,0 +1,203 @@
+{
+ "archivo": "r2_C_s22.wav",
+ "duracion_s": 30.08,
+ "pico_dbfs": -2.4536531145603364,
+ "clipping_muestras": 0,
+ "lufs": -20.71996176668549,
+ "clics": 0,
+ "silencio_inicio_s": 0.03,
+ "silencio_final_s": 0.14,
+ "piso_ruido_db_rel": -80.0,
+ "f0_picos_pct": 0.0,
+ "f0_fry_pct": 0.4363636363636364,
+ "salto_volumen_db": 6.78918706019101,
+ "f0_mediana_hz": 100.07734998907685,
+ "f0_std_st": 2.839280405234983,
+ "f0_rango_st": 9.468095817805125,
+ "jitter_pct": 3.0734270956614025,
+ "shimmer_pct": 9.279048226477483,
+ "hnr_db": 8.70350565476298,
+ "dnsmos_sig": 3.749084801537045,
+ "dnsmos_bak": 4.24519991144779,
+ "dnsmos_ovrl": 3.57408083836235,
+ "dnsmos_p808": 4.06155252456665,
+ "dnsmos_sig_min": 3.707344922025574,
+ "dnsmos_ovrl_min": 3.524174829348022,
+ "nisqa_tts_total": 4.075275421142578,
+ "nisqa_tts_media": 3.818342341317071,
+ "nisqa_tts_peor_ventana": 3.116525888442993,
+ "nisqa_tts_peor_en_s": 21.0,
+ "nisqa_ventanas": [
+  [
+   0.0,
+   3.92
+  ],
+  [
+   3.0,
+   3.71
+  ],
+  [
+   6.0,
+   3.68
+  ],
+  [
+   9.0,
+   3.75
+  ],
+  [
+   12.0,
+   3.94
+  ],
+  [
+   15.0,
+   3.96
+  ],
+  [
+   18.0,
+   4.2
+  ],
+  [
+   21.0,
+   3.12
+  ],
+  [
+   24.0,
+   4.09
+  ]
+ ],
+ "pausa_max_s": 1.03,
+ "pausa_media_s": 0.7085714285714285,
+ "transcripcion": "Son las 3 y 17 de la mañana. Te despierta la vibración del teléfono, pero no hay ninguna notificación. Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido. Tomada hace cinco minutos desde dentro de tu habitación. ¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera. Quédate hasta el final, porque te voy a enseñar a descubrir si alguien más tiene acceso a él. Ahora mismo. Gracias.",
+ "wer": 0.012345679012345678,
+ "errores": [
+  "insert: guion='' audio='gracias'"
+ ],
+ "silabas_por_seg": 7.4900793650793664,
+ "pausas": [
+  {
+   "tras": "mañana",
+   "punt": ".",
+   "dur": 0.49,
+   "en_s": 2.06,
+   "rara": false,
+   "_idx": 7
+  },
+  {
+   "tras": "teléfono",
+   "punt": "...",
+   "dur": 0.86,
+   "en_s": 4.34,
+   "rara": false,
+   "_idx": 13
+  },
+  {
+   "tras": "notificación",
+   "punt": ".",
+   "dur": 0.85,
+   "en_s": 6.62,
+   "rara": false,
+   "_idx": 18
+  },
+  {
+   "tras": "desbloqueas",
+   "punt": ",",
+   "dur": 0.47,
+   "en_s": 8.24,
+   "rara": false,
+   "_idx": 20
+  },
+  {
+   "tras": "nueva",
+   "punt": ".",
+   "dur": 0.5,
+   "en_s": 10.24,
+   "rara": false,
+   "_idx": 28
+  },
+  {
+   "tras": "tú",
+   "punt": ".",
+   "dur": 0.63,
+   "en_s": 11.16,
+   "rara": false,
+   "_idx": 30
+  },
+  {
+   "tras": "Dormido",
+   "punt": ".",
+   "dur": 0.84,
+   "en_s": 12.19,
+   "rara": false,
+   "_idx": 31
+  },
+  {
+   "tras": "minutos",
+   "punt": "...",
+   "dur": 0.7,
+   "en_s": 14.63,
+   "rara": false,
+   "_idx": 35
+  },
+  {
+   "tras": "habitación",
+   "punt": ". ¿",
+   "dur": 0.63,
+   "en_s": 16.59,
+   "rara": false,
+   "_idx": 40
+  },
+  {
+   "tras": "Paranoia",
+   "punt": "?",
+   "dur": 0.72,
+   "en_s": 17.7,
+   "rara": false,
+   "_idx": 41
+  },
+  {
+   "tras": "vez",
+   "punt": ".",
+   "dur": 0.79,
+   "en_s": 18.84,
+   "rara": false,
+   "_idx": 43
+  },
+  {
+   "tras": "manera",
+   "punt": ".",
+   "dur": 1.03,
+   "en_s": 23.02,
+   "rara": false,
+   "_idx": 60
+  },
+  {
+   "tras": "final",
+   "punt": ",",
+   "dur": 0.39,
+   "en_s": 25.03,
+   "rara": false,
+   "_idx": 64
+  },
+  {
+   "tras": "él",
+   "punt": ".",
+   "dur": 1.02,
+   "en_s": 28.39,
+   "rara": false,
+   "_idx": 78
+  }
+ ],
+ "pausas_raras": 0,
+ "pausas_puntuacion_faltantes": 0,
+ "pausas_faltan_tras": [],
+ "fallos": [
+  "nisqa_tts_media=3.818 (objetivo >= 4.0)",
+  "nisqa_tts_peor_ventana=3.117 (objetivo >= 3.6)",
+  "wer=0.012 (objetivo <= 0.0)",
+  "jitter_pct=3.073 (objetivo <= 2.0)",
+  "hnr_db=8.704 (objetivo >= 10.0)",
+  "silabas_por_seg=7.490 (objetivo rango (4.2, 6.8))"
+ ],
+ "aprobado": false,
+ "puntuacion": 16.609
+}

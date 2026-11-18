@@ -1,0 +1,227 @@
+{
+ "archivo": "r2_E_s22.wav",
+ "duracion_s": 38.8,
+ "pico_dbfs": -3.9210472045161926,
+ "clipping_muestras": 0,
+ "lufs": -22.195671582123722,
+ "clics": 0,
+ "silencio_inicio_s": 0.01,
+ "silencio_final_s": 0.23,
+ "piso_ruido_db_rel": -62.435672760009766,
+ "f0_picos_pct": 8.598028477546551,
+ "f0_fry_pct": 3.0120481927710845,
+ "salto_volumen_db": 5.788729821051639,
+ "f0_mediana_hz": 117.77801246410652,
+ "f0_std_st": 4.520154707636322,
+ "f0_rango_st": 15.562226270891436,
+ "jitter_pct": 2.915451801675294,
+ "shimmer_pct": 7.622952854571288,
+ "hnr_db": 10.613747366513138,
+ "dnsmos_sig": 3.8266864200689237,
+ "dnsmos_bak": 4.257570820691341,
+ "dnsmos_ovrl": 3.662925717036187,
+ "dnsmos_p808": 4.229597091674805,
+ "dnsmos_sig_min": 3.7824138717735116,
+ "dnsmos_ovrl_min": 3.6165523917942966,
+ "nisqa_tts_total": 4.706022262573242,
+ "nisqa_tts_media": 4.150233008644798,
+ "nisqa_tts_peor_ventana": 3.6632204055786133,
+ "nisqa_tts_peor_en_s": 12.0,
+ "nisqa_ventanas": [
+  [
+   0.0,
+   4.5
+  ],
+  [
+   3.0,
+   4.17
+  ],
+  [
+   6.0,
+   4.08
+  ],
+  [
+   9.0,
+   3.75
+  ],
+  [
+   12.0,
+   3.66
+  ],
+  [
+   15.0,
+   4.24
+  ],
+  [
+   18.0,
+   4.45
+  ],
+  [
+   21.0,
+   4.16
+  ],
+  [
+   24.0,
+   4.7
+  ],
+  [
+   27.0,
+   3.76
+  ],
+  [
+   30.0,
+   4.18
+  ]
+ ],
+ "pausa_max_s": 1.38,
+ "pausa_media_s": 0.8307142857142857,
+ "transcripcion": "Son las 3 y 17 de la mañana. Te despierta la vibración del teléfono. Pero no hay ninguna notificación. Lo desbloqueas y en tu galería hay una foto nueva. Eres tú. Dormido. Tomada hace cinco minutos. Desde dentro de tu habitación. ¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy deba hacer mirar tu teléfono de otra manera. Quédate hasta el final, porque te voy a enseñar a descubrir si alguien más tiene acceso a Él. Ahora mismo.",
+ "wer": 0.037037037037037035,
+ "errores": [
+  "replace: guion='te va a' audio='deba'"
+ ],
+ "silabas_por_seg": 5.721864342553999,
+ "pausas": [
+  {
+   "tras": "mañana",
+   "punt": ".",
+   "dur": 0.64,
+   "en_s": 2.12,
+   "rara": false,
+   "_idx": 7
+  },
+  {
+   "tras": "teléfono",
+   "punt": "...",
+   "dur": 1.08,
+   "en_s": 4.55,
+   "rara": false,
+   "_idx": 13
+  },
+  {
+   "tras": "notificación",
+   "punt": ".",
+   "dur": 0.86,
+   "en_s": 7.68,
+   "rara": false,
+   "_idx": 18
+  },
+  {
+   "tras": "desbloqueas",
+   "punt": ",",
+   "dur": 0.22,
+   "en_s": 9.61,
+   "rara": false,
+   "_idx": 20
+  },
+  {
+   "tras": "nueva",
+   "punt": ".",
+   "dur": 1.13,
+   "en_s": 12.38,
+   "rara": false,
+   "_idx": 28
+  },
+  {
+   "tras": "tú",
+   "punt": ".",
+   "dur": 1.03,
+   "en_s": 14.19,
+   "rara": false,
+   "_idx": 30
+  },
+  {
+   "tras": "Dormido",
+   "punt": ".",
+   "dur": 1.15,
+   "en_s": 15.77,
+   "rara": false,
+   "_idx": 31
+  },
+  {
+   "tras": "minutos",
+   "punt": "...",
+   "dur": 0.65,
+   "en_s": 18.82,
+   "rara": false,
+   "_idx": 35
+  },
+  {
+   "tras": "habitación",
+   "punt": ". ¿",
+   "dur": 1.38,
+   "en_s": 21.12,
+   "rara": false,
+   "_idx": 40
+  },
+  {
+   "tras": "Paranoia",
+   "punt": "?",
+   "dur": 0.55,
+   "en_s": 23.09,
+   "rara": false,
+   "_idx": 41
+  },
+  {
+   "tras": "vez",
+   "punt": ".",
+   "dur": 0.76,
+   "en_s": 24.2,
+   "rara": false,
+   "_idx": 43
+  },
+  {
+   "tras": "hoy",
+   "punt": "",
+   "dur": 0.56,
+   "en_s": 26.4,
+   "rara": true,
+   "_idx": 50
+  },
+  {
+   "tras": "manera",
+   "punt": ".",
+   "dur": 0.69,
+   "en_s": 29.46,
+   "rara": false,
+   "_idx": 58
+  },
+  {
+   "tras": "final",
+   "punt": ",",
+   "dur": 0.49,
+   "en_s": 31.73,
+   "rara": false,
+   "_idx": 62
+  },
+  {
+   "tras": "más",
+   "punt": "",
+   "dur": 0.22,
+   "en_s": 35.44,
+   "rara": false,
+   "_idx": 72
+  },
+  {
+   "tras": "él",
+   "punt": ".",
+   "dur": 1.0,
+   "en_s": 36.78,
+   "rara": false,
+   "_idx": 76
+  }
+ ],
+ "pausas_raras": 1,
+ "pausas_puntuacion_faltantes": 0,
+ "pausas_faltan_tras": [],
+ "fallos": [
+  "wer=0.037 (objetivo <= 0.0)",
+  "jitter_pct=2.915 (objetivo <= 2.0)",
+  "f0_picos_pct=8.598 (objetivo <= 1.5)",
+  "f0_fry_pct=3.012 (objetivo <= 3.0)",
+  "pausas_raras=1.000 (objetivo <= 0)",
+  "pausa_max_s=1.380 (objetivo <= 1.3)"
+ ],
+ "aprobado": false,
+ "puntuacion": 17.784
+}
