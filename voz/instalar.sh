@@ -14,7 +14,7 @@ mkdir -p "$VOZ_HOME/models" "$VOZ_HOME/hf"
 command -v ffmpeg >/dev/null || { echo "Instalando ffmpeg..."; (apt-get update -qq && apt-get install -y -qq ffmpeg) >/dev/null; }
 
 echo "[1/4] Librerías de Python..."
-pip install -q --disable-pip-version-check torch qwen-tts faster-whisper librosa praat-parselmouth pyloudnorm \
+pip install -q --disable-pip-version-check --use-pep517 torch qwen-tts faster-whisper librosa praat-parselmouth pyloudnorm \
   onnxruntime num2words soundfile scipy matplotlib huggingface_hub 2>&1 | grep -v "Running pip as the 'root'" || true
 
 echo "[2/4] DNSMOS y NISQA-TTS (repositorios oficiales)..."
