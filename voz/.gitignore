@@ -1,0 +1,4 @@
+# tomas intermedias (se regeneran); solo se versiona la toma final en voz/final/
+tomas/
+informes/*.png
+__pycache__/
