@@ -31,8 +31,9 @@ pausas naturales, masteriza sin degradar la voz y verifica el resultado completo
    python3 voz/narrar.py guion.txt salida_NOMBRE/            # 6 tomas por fragmento: máxima calidad
    python3 voz/narrar.py guion.txt salida_NOMBRE/ --tomas 3  # ~2x más rápido
    ```
-   Tiempo orientativo en CPU de 4 núcleos: unos 15-20 min por minuto de narración con 6 tomas
-   (con GPU, muchísimo menos). Para guiones de más de 3 minutos, propone `--tomas 3` o avisa del tiempo.
+   Tiempo orientativo en CPU de 4 núcleos (medido): ~30-40 min por minuto de narración con 6 tomas y
+   ~15-25 min con `--tomas 3`, más ~2 min de carga (con GPU, muchísimo menos). Para guiones de más de
+   2-3 minutos, propone `--tomas 3` o avisa del tiempo antes de empezar.
    El log muestra cada fragmento, cuántas tomas aprobaron y si se repitió alguno.
 
 4. **Revisa el resultado**: `salida_NOMBRE/informe.txt` dice `APROBADO` o `CON AVISOS` y las métricas.
@@ -44,7 +45,7 @@ pausas naturales, masteriza sin degradar la voz y verifica el resultado completo
 5. **Entrega**: envía `salida_NOMBRE/narracion.mp3` (para escuchar) y `narracion.wav` (48 kHz/24 bit, para el
    editor), y resume en 3-5 líneas: duración, si aprobó, naturalidad (NISQA), palabras correctas (WER) y
    cualquier aviso. Di claramente que la evaluación es por mediciones: tú no puedes escuchar el audio, y su oído
-   es la prueba final. La voz queda a unos −20 LUFS: se sube en el editor al mezclar con música.
+   es la prueba final. La voz queda entre −16 y −20 LUFS (sin compresión): se ajusta en el editor al mezclar con música.
 
 ## Qué significa "aprobado" (umbrales calibrados con voz humana real)
 

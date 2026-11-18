@@ -44,10 +44,10 @@ GUION:
 ## Qué esperar
 
 - **Primera vez en cada sesión**: la instalación tarda unos 5-10 minutos.
-- **Tiempo de narración** (en CPU): unos 15-20 minutos por cada minuto de audio con la máxima calidad
-  (6 tomas por fragmento). Con `--tomas 3` tarda la mitad.
+- **Tiempo de narración** (en CPU, medido): unos 30-40 minutos por cada minuto de audio con la máxima
+  calidad (6 tomas por fragmento) y unos 15-25 con 3 tomas. Puedes pedirlo así: "usa --tomas 3".
 - Recibirás `narracion.mp3`, `narracion.wav` (48 kHz/24 bit) e `informe.txt` con APROBADO o CON AVISOS.
-- La voz queda a unos −20 LUFS. Súbela en el editor al mezclar con la música (YouTube normaliza a −14 LUFS).
+- La voz queda entre −16 y −20 LUFS (sin compresión, para no degradarla). Ajústala en el editor al mezclar con la música (YouTube normaliza a −14 LUFS).
 
 ## Para que suene mejor, al escribir el guion
 
