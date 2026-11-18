@@ -39,6 +39,9 @@ UMBRALES = {
     "f0_std_st": (">=", 2.2),
     "f0_rango_st": (">=", 7.0),
     "jitter_pct": ("<=", 2.0),
+    "f0_picos_pct": ("<=", 1.5),
+    "f0_fry_pct": ("<=", 3.0),
+    "salto_volumen_db": ("<=", 9.0),
     "hnr_db": (">=", 10.0),
     "silabas_por_seg": ("rango", (4.2, 6.8)),
     "pausas_raras": ("<=", 0),
@@ -178,7 +181,19 @@ def prosodia(path):
     jit = call(pp, "Get jitter (local)", 0, 0, 0.0001, 0.02, 1.3) * 100
     shim = call([snd, pp], "Get shimmer (local)", 0, 0, 0.0001, 0.02, 1.3, 1.6) * 100
     hnr = call(snd.to_harmonicity_cc(0.01, 60, 0.1, 1.0), "Get mean", 0, 0)
-    return dict(f0_mediana_hz=float(np.median(f0)), f0_std_st=float(np.std(st)),
+    # picos de tono exagerados (>+8 st sobre la mediana) y "vocal fry" (<-7 st)
+    picos = float(np.mean(st > 8) * 100)
+    fry = float(np.mean(st < -7) * 100)
+    # saltos de volumen: sonoridad a corto plazo (400 ms) en tramos con voz
+    y = snd.values[0]
+    sr = int(snd.sampling_frequency)
+    w = int(0.4 * sr)
+    rms = np.array([np.sqrt(np.mean(y[i:i + w] ** 2)) for i in range(0, max(1, len(y) - w), int(0.1 * sr))])
+    db = 20 * np.log10(rms + 1e-9)
+    voz = db[db > db.max() - 30]
+    salto = float(voz.max() - np.median(voz)) if len(voz) else 0.0
+    return dict(f0_picos_pct=picos, f0_fry_pct=fry, salto_volumen_db=salto,
+                f0_mediana_hz=float(np.median(f0)), f0_std_st=float(np.std(st)),
                 f0_rango_st=float(np.percentile(st, 95) - np.percentile(st, 5)),
                 jitter_pct=float(jit), shimmer_pct=float(shim), hnr_db=float(hnr))
 
@@ -281,12 +296,15 @@ def texto_y_ritmo(y, sr, path, guion):
         idx = max([i for i, (_, a, b) in enumerate(words) if b <= s0 + 0.25] or [-1])
         if idx < 0:
             continue
+        if pausas and pausas[-1].get("_idx") == idx:
+            pausas[-1]["dur"] = round(pausas[-1]["dur"] + (s1 - s0), 2)
+            continue
         palabra, punt = punct_de_hyp.get(idx, (words[idx][0], None))
         ok = bool(punt)
         d = s1 - s0
         if not ok and d >= 0.30:
             raras += 1
-        pausas.append(dict(tras=palabra, punt=punt or "", dur=round(d, 2), en_s=round(s0, 2), rara=(not ok and d >= 0.30)))
+        pausas.append(dict(tras=palabra, punt=punt or "", dur=round(d, 2), en_s=round(s0, 2), rara=(not ok and d >= 0.30), _idx=idx))
 
     # pausas esperadas en puntos/interrogaciones/puntos suspensivos
     esperadas = [g for g, p in gw if p and any(c in p for c in ".?!…")]
@@ -357,7 +375,7 @@ def evaluar(path, guion, png=None, nisqa=True, dns=True, asr=True):
 
 def resumen(r):
     k = ["nisqa_tts_media", "nisqa_tts_peor_ventana", "dnsmos_sig", "dnsmos_bak", "dnsmos_ovrl", "dnsmos_p808",
-         "wer", "f0_mediana_hz", "f0_std_st", "f0_rango_st", "jitter_pct", "shimmer_pct", "hnr_db",
+         "wer", "f0_mediana_hz", "f0_std_st", "f0_rango_st", "f0_picos_pct", "f0_fry_pct", "salto_volumen_db", "jitter_pct", "shimmer_pct", "hnr_db",
          "silabas_por_seg", "pausa_media_s", "pausa_max_s", "pausas_raras", "pausas_puntuacion_faltantes", "clics", "pico_dbfs", "lufs", "duracion_s"]
     return " | ".join(f"{x}={r[x]:.2f}" if isinstance(r.get(x), float) else f"{x}={r.get(x)}" for x in k if x in r)
 
