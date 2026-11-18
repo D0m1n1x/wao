@@ -1,0 +1,110 @@
+{
+ "archivo": "c_E_s303.wav",
+ "duracion_s": 14.56,
+ "pico_dbfs": -3.0593491918176046,
+ "clipping_muestras": 0,
+ "lufs": -21.400174551803765,
+ "clics": 0,
+ "silencio_inicio_s": 0.02,
+ "silencio_final_s": 0.14,
+ "piso_ruido_db_rel": -66.53050994873047,
+ "f0_picos_pct": 13.253012048192772,
+ "f0_fry_pct": 0.0,
+ "salto_volumen_db": 4.687077705607251,
+ "f0_mediana_hz": 120.70804589021563,
+ "f0_std_st": 4.674148823069196,
+ "f0_rango_st": 14.50475912582603,
+ "jitter_pct": 2.78607367101869,
+ "shimmer_pct": 9.12614361467722,
+ "hnr_db": 8.47087220067597,
+ "dnsmos_sig": 3.748658549872404,
+ "dnsmos_bak": 4.188531510575231,
+ "dnsmos_ovrl": 3.536699773431695,
+ "dnsmos_p808": 4.246047019958496,
+ "dnsmos_sig_min": 3.7361052695357846,
+ "dnsmos_ovrl_min": 3.5132974919159023,
+ "nisqa_tts_total": 4.541553974151611,
+ "nisqa_tts_media": 4.205491463343303,
+ "nisqa_tts_peor_ventana": 3.9261858463287354,
+ "nisqa_tts_peor_en_s": 6.0,
+ "nisqa_ventanas": [
+  [
+   0.0,
+   4.55
+  ],
+  [
+   3.0,
+   4.14
+  ],
+  [
+   6.0,
+   3.93
+  ]
+ ],
+ "pausa_max_s": 1.02,
+ "pausa_media_s": 0.7283333333333334,
+ "transcripcion": "Hay historias que empiezan como cualquier otra noche. Una casa en silencio, una luz que se apaga y una sensación difícil de explicar. La de que alguien, en algún lugar, te está observando.",
+ "wer": 0.0,
+ "errores": [],
+ "silabas_por_seg": 6.084396467124631,
+ "pausas": [
+  {
+   "tras": "noche",
+   "punt": ".",
+   "dur": 1.02,
+   "en_s": 2.7,
+   "rara": false,
+   "_idx": 7
+  },
+  {
+   "tras": "silencio",
+   "punt": ",",
+   "dur": 0.74,
+   "en_s": 5.05,
+   "rara": false,
+   "_idx": 11
+  },
+  {
+   "tras": "apaga",
+   "punt": ",",
+   "dur": 0.8,
+   "en_s": 6.9,
+   "rara": false,
+   "_idx": 16
+  },
+  {
+   "tras": "explicar",
+   "punt": ":",
+   "dur": 1.0,
+   "en_s": 9.67,
+   "rara": false,
+   "_idx": 22
+  },
+  {
+   "tras": "alguien",
+   "punt": ",",
+   "dur": 0.36,
+   "en_s": 11.72,
+   "rara": false,
+   "_idx": 26
+  },
+  {
+   "tras": "lugar",
+   "punt": ",",
+   "dur": 0.45,
+   "en_s": 13.0,
+   "rara": false,
+   "_idx": 29
+  }
+ ],
+ "pausas_raras": 0,
+ "pausas_puntuacion_faltantes": 0,
+ "pausas_faltan_tras": [],
+ "fallos": [
+  "jitter_pct=2.786 (objetivo <= 2.0)",
+  "f0_picos_pct=13.253 (objetivo <= 1.5)",
+  "hnr_db=8.471 (objetivo >= 10.0)"
+ ],
+ "aprobado": false,
+ "puntuacion": 19.121
+}

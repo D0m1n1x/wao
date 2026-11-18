@@ -1,0 +1,87 @@
+{
+ "archivo": "c_E_s101.wav",
+ "duracion_s": 12.96,
+ "pico_dbfs": -3.7104698699704293,
+ "clipping_muestras": 0,
+ "lufs": -22.554517183213125,
+ "clics": 0,
+ "silencio_inicio_s": 0.02,
+ "silencio_final_s": 0.21,
+ "piso_ruido_db_rel": -78.20903015136719,
+ "f0_picos_pct": 3.0513176144244105,
+ "f0_fry_pct": 9.57004160887656,
+ "salto_volumen_db": 6.198445930386313,
+ "f0_mediana_hz": 143.37861220777913,
+ "f0_std_st": 4.929816193113113,
+ "f0_rango_st": 16.922696946686305,
+ "jitter_pct": 2.54473313906248,
+ "shimmer_pct": 8.496047425794094,
+ "hnr_db": 9.932318574876906,
+ "dnsmos_sig": 3.810457647362938,
+ "dnsmos_bak": 4.26071590996162,
+ "dnsmos_ovrl": 3.6477156289848467,
+ "dnsmos_p808": 4.199038028717041,
+ "dnsmos_sig_min": 3.80986171387958,
+ "dnsmos_ovrl_min": 3.640109363981178,
+ "nisqa_tts_total": 4.344892501831055,
+ "nisqa_tts_media": 4.253687858581543,
+ "nisqa_tts_peor_ventana": 4.096055030822754,
+ "nisqa_tts_peor_en_s": 0.0,
+ "nisqa_ventanas": [
+  [
+   0.0,
+   4.1
+  ],
+  [
+   3.0,
+   4.14
+  ],
+  [
+   6.0,
+   4.52
+  ]
+ ],
+ "pausa_max_s": 0.67,
+ "pausa_media_s": 0.4833333333333334,
+ "transcripcion": "Hay historias que empiezan como cualquier otra noche, una casa en silencio, una luz que se apaga y una sensación difícil de explicar, la de que alguien en algún lugar te está observando.",
+ "wer": 0.0,
+ "errores": [],
+ "silabas_por_seg": 5.386620330147697,
+ "pausas": [
+  {
+   "tras": "noche",
+   "punt": ".",
+   "dur": 0.45,
+   "en_s": 2.61,
+   "rara": false,
+   "_idx": 7
+  },
+  {
+   "tras": "apaga",
+   "punt": ",",
+   "dur": 0.33,
+   "en_s": 6.08,
+   "rara": false,
+   "_idx": 16
+  },
+  {
+   "tras": "explicar",
+   "punt": ":",
+   "dur": 0.67,
+   "en_s": 8.65,
+   "rara": false,
+   "_idx": 22
+  }
+ ],
+ "pausas_raras": 0,
+ "pausas_puntuacion_faltantes": 0,
+ "pausas_faltan_tras": [],
+ "fallos": [
+  "jitter_pct=2.545 (objetivo <= 2.0)",
+  "f0_picos_pct=3.051 (objetivo <= 1.5)",
+  "f0_fry_pct=9.570 (objetivo <= 3.0)",
+  "hnr_db=9.932 (objetivo >= 10.0)"
+ ],
+ "aprobado": false,
+ "puntuacion": 19.256
+}

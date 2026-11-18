@@ -29,6 +29,8 @@ MODELS = os.environ.get("VOZ_MODELS", "")
 WHISPER = os.environ.get("WHISPER_MODEL", "large-v3-turbo")
 
 # Umbrales de "perfecto". Una toma solo se acepta si los cumple todos.
+# Calibrados con voz humana real (LibriSpeech, narrador masculino): jitter 2,2-2,6 %, HNR 10-11 dB,
+# F0 std 3,1-3,7 st, picos de F0 hasta 4 %, NISQA 3,4-3,9, DNSMOS SIG 3,7.
 UMBRALES = {
     "nisqa_tts_media": (">=", 4.0),
     "nisqa_tts_peor_ventana": (">=", 3.6),
@@ -36,14 +38,14 @@ UMBRALES = {
     "dnsmos_bak": (">=", 4.0),
     "dnsmos_ovrl": (">=", 3.2),
     "wer": ("<=", 0.0),
-    "f0_std_st": (">=", 2.2),
-    "f0_rango_st": (">=", 7.0),
-    "jitter_pct": ("<=", 2.0),
-    "f0_picos_pct": ("<=", 1.5),
+    "f0_std_st": (">=", 2.5),
+    "f0_rango_st": (">=", 8.0),
+    "jitter_pct": ("<=", 3.0),
+    "f0_picos_pct": ("<=", 4.0),
     "f0_fry_pct": ("<=", 3.0),
     "salto_volumen_db": ("<=", 9.0),
     "hnr_db": (">=", 10.0),
-    "silabas_por_seg": ("rango", (4.2, 6.8)),
+    "silabas_por_seg": ("rango", (4.5, 7.5)),  # español leído ~7,8 síl/s (Pellegrino et al. 2011)
     "pausas_raras": ("<=", 0),
     "pausa_max_s": ("<=", 1.3),
     "pausa_media_s": ("rango", (0.35, 0.95)),
