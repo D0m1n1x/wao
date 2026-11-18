@@ -48,18 +48,21 @@ def main(plan_path, salida):
     meter = pyln.Meter(sr0)
     louds = [meter.integrated_loudness(y) for y, _ in frs]
     objetivo = float(np.median(louds))
-    out = []
+    out, tramos, pos = [], [], 0
     for (y, pausa), L in zip(frs, louds):
         if abs(L - objetivo) > 0.5:
             y = y * 10 ** ((objetivo - L) / 20)
         out.append(y)
+        tramos.append((pos / sr0, (pos + len(y)) / sr0))
+        pos += len(y) + int(pausa * sr0)
         out.append(np.zeros(int(pausa * sr0)))
     y = np.concatenate(out[:-1])
     pico = np.max(np.abs(y))
     if pico > 0.89:
         y *= 0.89 / pico
     sf.write(salida, y, sr0, subtype="PCM_24")
-    print(f"OK {salida} {len(y) / sr0:.1f}s | sonoridad por fragmento: {[round(x, 1) for x in louds]}")
+    print(f"OK {salida} {len(y) / sr0:.1f}s | sonoridad por fragmento: {[round(float(x), 1) for x in louds]}")
+    return tramos
 
 
 if __name__ == "__main__":

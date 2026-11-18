@@ -249,6 +249,8 @@ def silencios(y, sr, minimo=0.18):
 
 
 _WH = None
+ALUCINACIONES = {"gracias", "muchas", "por", "ver", "el", "video", "suscribete", "subtitulos", "realizados", "la",
+                 "comunidad", "de", "amara", "org", "y", "hasta", "proxima", "adios"}
 
 
 def transcribe(path):
@@ -257,7 +259,13 @@ def transcribe(path):
     from faster_whisper import WhisperModel
 
     if _WH is None:
-        _WH = WhisperModel(WHISPER, device="cpu", compute_type="int8", cpu_threads=4)
+        try:
+            import torch
+            gpu = torch.cuda.is_available()
+        except Exception:
+            gpu = False
+        _WH = WhisperModel(WHISPER, device="cuda" if gpu else "cpu", compute_type="float16" if gpu else "int8",
+                           cpu_threads=os.cpu_count() or 4)
     segs, _ = _WH.transcribe(y16.astype(np.float32), language="es", beam_size=5, word_timestamps=True, vad_filter=False,
                              condition_on_previous_text=False)
     words = []
@@ -272,11 +280,16 @@ def texto_y_ritmo(y, sr, path, guion):
     hyp = " ".join(w for w, _, _ in words)
     ref_n, hyp_n = normaliza(guion), normaliza(hyp)
     sm = SequenceMatcher(a=ref_n, b=hyp_n, autojunk=False)
-    errores, dist = [], 0
-    for op, a0, a1, b0, b1 in sm.get_opcodes():
+    errores, errores_idx, dist = [], [], 0
+    ops = sm.get_opcodes()
+    for op, a0, a1, b0, b1 in ops:
         if op != "equal":
+            # Whisper a veces "alucina" una despedida en el silencio final ("gracias", "suscríbete"...)
+            if op == "insert" and a0 == len(ref_n) and set(hyp_n[b0:b1]) <= ALUCINACIONES:
+                continue
             dist += max(a1 - a0, b1 - b0)
             errores.append(f"{op}: guion='{' '.join(ref_n[a0:a1])}' audio='{' '.join(hyp_n[b0:b1])}'")
+            errores_idx.append((a0, a1))
     wer = dist / max(len(ref_n), 1)
 
     # Alinear palabras de Whisper con las del guion para saber qué puntuación sigue a cada una
@@ -315,7 +328,8 @@ def texto_y_ritmo(y, sr, path, guion):
 
     habla = dur - sum(p["dur"] for p in pausas)
     dp = [p["dur"] for p in pausas if p["punt"]]
-    return dict(pausa_max_s=max(dp or [0]), pausa_media_s=float(np.mean(dp or [0])),transcripcion=hyp, wer=wer, errores=errores,
+    return dict(pausa_max_s=max(dp or [0]), pausa_media_s=float(np.mean(dp or [0])), transcripcion=hyp, wer=wer,
+                errores=errores, errores_idx=errores_idx,
                 silabas_por_seg=silabas_es(guion) / max(habla, 1e-3),
                 pausas=pausas, pausas_raras=raras, pausas_puntuacion_faltantes=len(faltan),
                 pausas_faltan_tras=faltan)

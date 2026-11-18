@@ -2,3 +2,5 @@
 tomas/
 informes/*.png
 __pycache__/
+.entorno.json
+salida*/
