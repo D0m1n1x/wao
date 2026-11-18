@@ -293,13 +293,27 @@ def texto_y_ritmo(y, sr, path, guion):
     wer = dist / max(len(ref_n), 1)
 
     # Alinear palabras de Whisper con las del guion para saber qué puntuación sigue a cada una
+    # Se alinean por tokens normalizados: Whisper escribe "2020," como una sola palabra que equivale a
+    # "dos mil veinte," en el guion. La puntuación de la palabra de Whisper es la de su ÚLTIMO token
+    # (si solo se usara el primero, la pausa tras "2020," se atribuiría a "dos" y saldría como pausa rara).
     gw = palabras_guion(guion)
-    hyp_tok = [(normaliza(w) or [""])[0] for w, _, _ in words]
-    m2 = SequenceMatcher(a=[normaliza(g)[0] for g, _ in gw], b=hyp_tok, autojunk=False)
+    a_tok, a_src = [], []  # tokens del guion -> (índice de palabra del guion, ¿es su último token?)
+    for gi, (g, _) in enumerate(gw):
+        ts = normaliza(g) or [""]
+        for j, t in enumerate(ts):
+            a_tok.append(t)
+            a_src.append((gi, j == len(ts) - 1))
+    b_tok, b_src = [], []  # tokens de Whisper -> índice de palabra de Whisper
+    for wi, (w, _, _) in enumerate(words):
+        for t in normaliza(w) or [""]:
+            b_tok.append(t)
+            b_src.append(wi)
+    m2 = SequenceMatcher(a=a_tok, b=b_tok, autojunk=False)
     punct_de_hyp = {}
     for blk in m2.get_matching_blocks():
         for k in range(blk.size):
-            punct_de_hyp[blk.b + k] = (gw[blk.a + k][0], gw[blk.a + k][1])
+            gi, ultimo = a_src[blk.a + k]
+            punct_de_hyp[b_src[blk.b + k]] = (gw[gi][0], gw[gi][1] if ultimo else "")  # gana el último token
 
     sil = silencios(y, sr)
     dur = len(y) / sr
