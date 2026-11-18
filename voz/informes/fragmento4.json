@@ -1,0 +1,2164 @@
+[
+ {
+  "archivo": "f4_t1.wav",
+  "duracion_s": 6.48,
+  "pico_dbfs": -3.9210472045161926,
+  "clipping_muestras": 0,
+  "lufs": -20.07736344655312,
+  "clics": 0,
+  "silencio_inicio_s": 0.34,
+  "silencio_final_s": 0.16,
+  "piso_ruido_db_rel": -76.91043090820312,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.210355887443548,
+  "f0_mediana_hz": 95.73114340011965,
+  "f0_std_st": 2.204907676189386,
+  "f0_rango_st": 7.686234116386959,
+  "jitter_pct": 3.295570323243296,
+  "shimmer_pct": 8.336496310152121,
+  "hnr_db": 11.704788251776838,
+  "dnsmos_sig": 3.74569980769059,
+  "dnsmos_bak": 4.233843783587681,
+  "dnsmos_ovrl": 3.56848868303112,
+  "dnsmos_p808": 4.2896342277526855,
+  "dnsmos_sig_min": 3.7322912581258136,
+  "dnsmos_ovrl_min": 3.548810005405133,
+  "nisqa_tts_total": 4.0566887855529785,
+  "nisqa_tts_media": 3.8839221000671387,
+  "nisqa_tts_peor_ventana": 3.8839221000671387,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.88
+   ]
+  ],
+  "pausa_max_s": 0.7,
+  "pausa_media_s": 0.6399999999999999,
+  "transcripcion": "¿Paranoia? Tal vez, pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.346153846153845,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.58,
+    "en_s": 0.96,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.7,
+    "en_s": 2.08,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.884 (objetivo >= 4.0)",
+   "f0_std_st=2.205 (objetivo >= 2.5)",
+   "f0_rango_st=7.686 (objetivo >= 8.0)",
+   "jitter_pct=3.296 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.247
+ },
+ {
+  "archivo": "f4_t2.wav",
+  "duracion_s": 7.04,
+  "pico_dbfs": -4.028281771788894,
+  "clipping_muestras": 0,
+  "lufs": -19.775707753709856,
+  "clics": 0,
+  "silencio_inicio_s": 0.35000000000000003,
+  "silencio_final_s": 0.16,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 0.5305039787798408,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.52315605372001,
+  "f0_mediana_hz": 100.551921855736,
+  "f0_std_st": 2.42866538872574,
+  "f0_rango_st": 8.292229563835084,
+  "jitter_pct": 3.171889683459074,
+  "shimmer_pct": 8.129861610507971,
+  "hnr_db": 11.709671086211443,
+  "dnsmos_sig": 3.7006652452903808,
+  "dnsmos_bak": 4.228285959426039,
+  "dnsmos_ovrl": 3.5316813067423367,
+  "dnsmos_p808": 4.2345499992370605,
+  "dnsmos_sig_min": 3.680714474576546,
+  "dnsmos_ovrl_min": 3.512648686552287,
+  "nisqa_tts_total": 3.7810328006744385,
+  "nisqa_tts_media": 3.3985233306884766,
+  "nisqa_tts_peor_ventana": 3.3985233306884766,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.4
+   ]
+  ],
+  "pausa_max_s": 0.73,
+  "pausa_media_s": 0.685,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.099815157116451,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.73,
+    "en_s": 0.93,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.64,
+    "en_s": 2.26,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.26,
+    "en_s": 4.28,
+    "rara": false,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.399 (objetivo >= 4.0)",
+   "nisqa_tts_peor_ventana=3.399 (objetivo >= 3.6)",
+   "f0_std_st=2.429 (objetivo >= 2.5)",
+   "jitter_pct=3.172 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 16.951
+ },
+ {
+  "archivo": "f4_t3.wav",
+  "duracion_s": 7.12,
+  "pico_dbfs": -3.3040383198048873,
+  "clipping_muestras": 0,
+  "lufs": -20.455584184425618,
+  "clics": 0,
+  "silencio_inicio_s": 0.46,
+  "silencio_final_s": 0.23,
+  "piso_ruido_db_rel": -79.83114624023438,
+  "f0_picos_pct": 0.5390835579514826,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.5227866863068584,
+  "f0_mediana_hz": 96.4288938487234,
+  "f0_std_st": 2.3095881899746207,
+  "f0_rango_st": 7.916321756051862,
+  "jitter_pct": 3.1376374382773964,
+  "shimmer_pct": 8.891898715346006,
+  "hnr_db": 11.554254961994165,
+  "dnsmos_sig": 3.7786776244361553,
+  "dnsmos_bak": 4.24510677950946,
+  "dnsmos_ovrl": 3.61112309917466,
+  "dnsmos_p808": 4.28560733795166,
+  "dnsmos_sig_min": 3.7652405391571473,
+  "dnsmos_ovrl_min": 3.6025609321838363,
+  "nisqa_tts_total": 3.805304765701294,
+  "nisqa_tts_media": 3.5799310207366943,
+  "nisqa_tts_peor_ventana": 3.5799310207366943,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.58
+   ]
+  ],
+  "pausa_max_s": 0.89,
+  "pausa_media_s": 0.8300000000000001,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.043956043956044,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.89,
+    "en_s": 1.09,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.77,
+    "en_s": 2.48,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.580 (objetivo >= 4.0)",
+   "nisqa_tts_peor_ventana=3.580 (objetivo >= 3.6)",
+   "f0_std_st=2.310 (objetivo >= 2.5)",
+   "f0_rango_st=7.916 (objetivo >= 8.0)",
+   "jitter_pct=3.138 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 17.708
+ },
+ {
+  "archivo": "f4_t4.wav",
+  "duracion_s": 6.8,
+  "pico_dbfs": -2.364107067583617,
+  "clipping_muestras": 0,
+  "lufs": -19.608343373394057,
+  "clics": 0,
+  "silencio_inicio_s": 0.07,
+  "silencio_final_s": 0.14,
+  "piso_ruido_db_rel": -65.08261108398438,
+  "f0_picos_pct": 0.27932960893854747,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.0152995879039217,
+  "f0_mediana_hz": 94.94550092926909,
+  "f0_std_st": 2.4625120981516577,
+  "f0_rango_st": 8.007181455360195,
+  "jitter_pct": 3.454912571086641,
+  "shimmer_pct": 8.31290866241869,
+  "hnr_db": 11.82564202325154,
+  "dnsmos_sig": 3.790318012701984,
+  "dnsmos_bak": 4.231448927724123,
+  "dnsmos_ovrl": 3.6185874284380612,
+  "dnsmos_p808": 4.269735336303711,
+  "dnsmos_sig_min": 3.782019305244841,
+  "dnsmos_ovrl_min": 3.6114682359767216,
+  "nisqa_tts_total": 4.234299182891846,
+  "nisqa_tts_media": 4.038962364196777,
+  "nisqa_tts_peor_ventana": 4.038962364196777,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.04
+   ]
+  ],
+  "pausa_max_s": 1.06,
+  "pausa_media_s": 0.95,
+  "transcripcion": "Paranoia. Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.73469387755102,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 1.06,
+    "en_s": 0.67,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.84,
+    "en_s": 2.28,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.463 (objetivo >= 2.5)",
+   "jitter_pct=3.455 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.456
+ },
+ {
+  "archivo": "f4_t5.wav",
+  "duracion_s": 7.44,
+  "pico_dbfs": -4.759564983313603,
+  "clipping_muestras": 0,
+  "lufs": -20.993774621736044,
+  "clics": 0,
+  "silencio_inicio_s": 0.55,
+  "silencio_final_s": 0.26,
+  "piso_ruido_db_rel": -79.45271301269531,
+  "f0_picos_pct": 0.5555555555555556,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 4.063813911500102,
+  "f0_mediana_hz": 98.99266411966391,
+  "f0_std_st": 3.0509618254631503,
+  "f0_rango_st": 10.767596095597348,
+  "jitter_pct": 3.2768279105748332,
+  "shimmer_pct": 8.566303299037866,
+  "hnr_db": 10.978555091263601,
+  "dnsmos_sig": 3.8358759853441837,
+  "dnsmos_bak": 4.276607527322396,
+  "dnsmos_ovrl": 3.687023330557816,
+  "dnsmos_p808": 4.3500871658325195,
+  "dnsmos_sig_min": 3.8314258965878416,
+  "dnsmos_ovrl_min": 3.6807998240381763,
+  "nisqa_tts_total": 4.155143737792969,
+  "nisqa_tts_media": 3.929002285003662,
+  "nisqa_tts_peor_ventana": 3.929002285003662,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.93
+   ]
+  ],
+  "pausa_max_s": 0.95,
+  "pausa_media_s": 0.87,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.7894736842105265,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.79,
+    "en_s": 1.15,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.95,
+    "en_s": 2.5,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.929 (objetivo >= 4.0)",
+   "jitter_pct=3.277 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.613
+ },
+ {
+  "archivo": "f4_t6.wav",
+  "duracion_s": 6.08,
+  "pico_dbfs": -2.3196778677626346,
+  "clipping_muestras": 0,
+  "lufs": -20.06006817645862,
+  "clics": 0,
+  "silencio_inicio_s": 0.07,
+  "silencio_final_s": 0.01,
+  "piso_ruido_db_rel": -63.55177307128906,
+  "f0_picos_pct": 2.824858757062147,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.0717740713354456,
+  "f0_mediana_hz": 95.11977833727343,
+  "f0_std_st": 2.7366892007384505,
+  "f0_rango_st": 10.074060241225041,
+  "jitter_pct": 3.1307220679315844,
+  "shimmer_pct": 7.962353339937945,
+  "hnr_db": 11.706170264442871,
+  "dnsmos_sig": 3.764473218233803,
+  "dnsmos_bak": 4.22958736654698,
+  "dnsmos_ovrl": 3.588779232025166,
+  "dnsmos_p808": 4.259823322296143,
+  "dnsmos_sig_min": 3.7467535266679457,
+  "dnsmos_ovrl_min": 3.578358246343677,
+  "nisqa_tts_total": 4.16591739654541,
+  "nisqa_tts_media": 4.165724754333496,
+  "nisqa_tts_peor_ventana": 4.165724754333496,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.17
+   ]
+  ],
+  "pausa_max_s": 0.66,
+  "pausa_media_s": 0.625,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.832298136645963,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.59,
+    "en_s": 0.69,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.66,
+    "en_s": 1.84,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.131 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.437
+ },
+ {
+  "archivo": "f4_t7.wav",
+  "duracion_s": 6.16,
+  "pico_dbfs": -3.0593491918176046,
+  "clipping_muestras": 0,
+  "lufs": -21.930573810583212,
+  "clics": 0,
+  "silencio_inicio_s": 0.3,
+  "silencio_final_s": 0.06,
+  "piso_ruido_db_rel": -72.72595977783203,
+  "f0_picos_pct": 3.4055727554179565,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.4704045729718054,
+  "f0_mediana_hz": 94.5543834663619,
+  "f0_std_st": 3.2020810366791483,
+  "f0_rango_st": 9.95448828825343,
+  "jitter_pct": 3.2940027047747935,
+  "shimmer_pct": 9.274520102495163,
+  "hnr_db": 11.21640202464877,
+  "dnsmos_sig": 3.79020172208383,
+  "dnsmos_bak": 4.254567420199279,
+  "dnsmos_ovrl": 3.6146540011418167,
+  "dnsmos_p808": 4.237262725830078,
+  "dnsmos_sig_min": 3.7884941287070077,
+  "dnsmos_ovrl_min": 3.609782748380619,
+  "nisqa_tts_total": 4.496175289154053,
+  "nisqa_tts_media": 4.56451416015625,
+  "nisqa_tts_peor_ventana": 4.56451416015625,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.56
+   ]
+  ],
+  "pausa_max_s": 0.72,
+  "pausa_media_s": 0.6699999999999999,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.846473029045643,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.62,
+    "en_s": 0.86,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.72,
+    "en_s": 2.01,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.294 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 20.334
+ },
+ {
+  "archivo": "f4_t8.wav",
+  "duracion_s": 6.4,
+  "pico_dbfs": -3.403877230807975,
+  "clipping_muestras": 0,
+  "lufs": -20.425883144081133,
+  "clics": 0,
+  "silencio_inicio_s": 0.14,
+  "silencio_final_s": 0.24,
+  "piso_ruido_db_rel": -65.33453369140625,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.44192615312798,
+  "f0_mediana_hz": 91.38372888873874,
+  "f0_std_st": 2.1915484714597797,
+  "f0_rango_st": 6.874567652071823,
+  "jitter_pct": 2.900902299514639,
+  "shimmer_pct": 8.923020068924522,
+  "hnr_db": 11.242877987238572,
+  "dnsmos_sig": 3.74561794516918,
+  "dnsmos_bak": 4.235295516044011,
+  "dnsmos_ovrl": 3.561534862376608,
+  "dnsmos_p808": 4.325859546661377,
+  "dnsmos_sig_min": 3.73909776948265,
+  "dnsmos_ovrl_min": 3.557751334684143,
+  "nisqa_tts_total": 3.8721086978912354,
+  "nisqa_tts_media": 3.999962091445923,
+  "nisqa_tts_peor_ventana": 3.999962091445923,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.0
+   ]
+  ],
+  "pausa_max_s": 0.83,
+  "pausa_media_s": 0.7849999999999999,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.832298136645963,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.83,
+    "en_s": 0.77,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.74,
+    "en_s": 2.12,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=4.000 (objetivo >= 4.0)",
+   "f0_std_st=2.192 (objetivo >= 2.5)",
+   "f0_rango_st=6.875 (objetivo >= 8.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.395
+ },
+ {
+  "archivo": "f4_t9.wav",
+  "duracion_s": 6.4,
+  "pico_dbfs": -2.5897272754773186,
+  "clipping_muestras": 0,
+  "lufs": -19.729286154087657,
+  "clics": 0,
+  "silencio_inicio_s": 0.33,
+  "silencio_final_s": 0.24,
+  "piso_ruido_db_rel": -77.87582397460938,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.2152564478692796,
+  "f0_mediana_hz": 100.71960745452566,
+  "f0_std_st": 2.492170581714925,
+  "f0_rango_st": 8.119279923616812,
+  "jitter_pct": 3.4418568256533937,
+  "shimmer_pct": 8.745257301607055,
+  "hnr_db": 11.205888625529218,
+  "dnsmos_sig": 3.7624138595562484,
+  "dnsmos_bak": 4.230183980838213,
+  "dnsmos_ovrl": 3.592443314429086,
+  "dnsmos_p808": 4.269132614135742,
+  "dnsmos_sig_min": 3.756308044800049,
+  "dnsmos_ovrl_min": 3.5882699328566563,
+  "nisqa_tts_total": 4.12104606628418,
+  "nisqa_tts_media": 4.216485977172852,
+  "nisqa_tts_peor_ventana": 4.216485977172852,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.22
+   ]
+  ],
+  "pausa_max_s": 0.76,
+  "pausa_media_s": 0.69,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.573705179282868,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.62,
+    "en_s": 0.9,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.76,
+    "en_s": 2.02,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.492 (objetivo >= 2.5)",
+   "jitter_pct=3.442 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.974
+ },
+ {
+  "archivo": "f4_t10.wav",
+  "duracion_s": 7.04,
+  "pico_dbfs": -3.0112277965682868,
+  "clipping_muestras": 0,
+  "lufs": -19.23824239625647,
+  "clics": 0,
+  "silencio_inicio_s": 0.74,
+  "silencio_final_s": 0.11,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 1.9337016574585635,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 1.8124117269964515,
+  "f0_mediana_hz": 94.75501737669208,
+  "f0_std_st": 2.9030550339400465,
+  "f0_rango_st": 9.867583919335923,
+  "jitter_pct": 3.5463732751058528,
+  "shimmer_pct": 7.951310072178224,
+  "hnr_db": 10.833926716496066,
+  "dnsmos_sig": 3.8284956305569473,
+  "dnsmos_bak": 4.268871854121008,
+  "dnsmos_ovrl": 3.6723354282085916,
+  "dnsmos_p808": 4.391777038574219,
+  "dnsmos_sig_min": 3.8265703280245384,
+  "dnsmos_ovrl_min": 3.6675903496838775,
+  "nisqa_tts_total": 3.7834832668304443,
+  "nisqa_tts_media": 3.6449134349823,
+  "nisqa_tts_peor_ventana": 3.6449134349823,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.64
+   ]
+  ],
+  "pausa_max_s": 0.45,
+  "pausa_media_s": 0.45,
+  "transcripcion": "¿Paranoia? Tal vez, pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.007587253414264,
+  "pausas": [
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.45,
+    "en_s": 2.73,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 1,
+  "pausas_faltan_tras": [
+   "Paranoia"
+  ],
+  "fallos": [
+   "nisqa_tts_media=3.645 (objetivo >= 4.0)",
+   "jitter_pct=3.546 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 17.224
+ },
+ {
+  "archivo": "f4_t11.wav",
+  "duracion_s": 6.96,
+  "pico_dbfs": -2.8213647261573223,
+  "clipping_muestras": 0,
+  "lufs": -20.215865218732656,
+  "clics": 0,
+  "silencio_inicio_s": 0.14,
+  "silencio_final_s": 0.16,
+  "piso_ruido_db_rel": -69.55684661865234,
+  "f0_picos_pct": 2.4657534246575343,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.2771505402271934,
+  "f0_mediana_hz": 97.86867890665515,
+  "f0_std_st": 2.8011799053002324,
+  "f0_rango_st": 8.622338807357174,
+  "jitter_pct": 2.6530177586528874,
+  "shimmer_pct": 7.862220892194995,
+  "hnr_db": 12.329768905349978,
+  "dnsmos_sig": 3.737088564631709,
+  "dnsmos_bak": 4.236038092860825,
+  "dnsmos_ovrl": 3.577537121541603,
+  "dnsmos_p808": 4.372035026550293,
+  "dnsmos_sig_min": 3.7317198318693108,
+  "dnsmos_ovrl_min": 3.567681240760152,
+  "nisqa_tts_total": 4.582520961761475,
+  "nisqa_tts_media": 3.9144322872161865,
+  "nisqa_tts_peor_ventana": 3.9144322872161865,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.91
+   ]
+  ],
+  "pausa_max_s": 1.1,
+  "pausa_media_s": 0.9400000000000001,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.496062992125984,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.78,
+    "en_s": 0.73,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 1.1,
+    "en_s": 2.08,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.914 (objetivo >= 4.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.375
+ },
+ {
+  "archivo": "f4_t12.wav",
+  "duracion_s": 7.36,
+  "pico_dbfs": -2.5897272754773186,
+  "clipping_muestras": 0,
+  "lufs": -21.147148743834762,
+  "clics": 0,
+  "silencio_inicio_s": 0.07,
+  "silencio_final_s": 0.23,
+  "piso_ruido_db_rel": -63.73320007324219,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 1.8867757676063732,
+  "f0_mediana_hz": 92.2598220611871,
+  "f0_std_st": 2.318965688257989,
+  "f0_rango_st": 8.088330556646007,
+  "jitter_pct": 3.3384517639932048,
+  "shimmer_pct": 8.405307392838814,
+  "hnr_db": 11.608267045373038,
+  "dnsmos_sig": 3.728149328489903,
+  "dnsmos_bak": 4.22355850896058,
+  "dnsmos_ovrl": 3.549021417860483,
+  "dnsmos_p808": 4.226028919219971,
+  "dnsmos_sig_min": 3.7146319531176664,
+  "dnsmos_ovrl_min": 3.5305930831281622,
+  "nisqa_tts_total": 4.039645671844482,
+  "nisqa_tts_media": 3.975538730621338,
+  "nisqa_tts_peor_ventana": 3.975538730621338,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.98
+   ]
+  ],
+  "pausa_max_s": 0.79,
+  "pausa_media_s": 0.755,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.273764258555134,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.72,
+    "en_s": 0.69,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.79,
+    "en_s": 2.0,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.59,
+    "en_s": 4.21,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.976 (objetivo >= 4.0)",
+   "f0_std_st=2.319 (objetivo >= 2.5)",
+   "jitter_pct=3.338 (objetivo <= 3.0)",
+   "pausas_raras=1.000 (objetivo <= 0)"
+  ],
+  "aprobado": false,
+  "nota": 17.376
+ },
+ {
+  "archivo": "f4_t13.wav",
+  "duracion_s": 6.4,
+  "pico_dbfs": -2.144199381839429,
+  "clipping_muestras": 0,
+  "lufs": -20.068852377731066,
+  "clics": 0,
+  "silencio_inicio_s": 0.1,
+  "silencio_final_s": 0.19,
+  "piso_ruido_db_rel": -63.98921203613281,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.28328611898017,
+  "salto_volumen_db": 1.603722179352033,
+  "f0_mediana_hz": 92.03757415555661,
+  "f0_std_st": 2.432826808515545,
+  "f0_rango_st": 8.02013660806659,
+  "jitter_pct": 2.9719573566124686,
+  "shimmer_pct": 8.824880763073281,
+  "hnr_db": 11.49175461197534,
+  "dnsmos_sig": 3.7554806295173933,
+  "dnsmos_bak": 4.228624012571006,
+  "dnsmos_ovrl": 3.5776206134888167,
+  "dnsmos_p808": 4.3090691566467285,
+  "dnsmos_sig_min": 3.741260507836493,
+  "dnsmos_ovrl_min": 3.563364127470031,
+  "nisqa_tts_total": 3.7200801372528076,
+  "nisqa_tts_media": 3.8142263889312744,
+  "nisqa_tts_peor_ventana": 3.8142263889312744,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.81
+   ]
+  ],
+  "pausa_max_s": 0.91,
+  "pausa_media_s": 0.78,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.818181818181818,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.65,
+    "en_s": 0.74,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.91,
+    "en_s": 1.93,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.814 (objetivo >= 4.0)",
+   "f0_std_st=2.433 (objetivo >= 2.5)"
+  ],
+  "aprobado": false,
+  "nota": 18.709
+ },
+ {
+  "archivo": "f4_t14.wav",
+  "duracion_s": 8.32,
+  "pico_dbfs": -4.302307324893992,
+  "clipping_muestras": 0,
+  "lufs": -20.358028359613517,
+  "clics": 0,
+  "silencio_inicio_s": 0.84,
+  "silencio_final_s": 0.24,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 2.528089887640449,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.743952298139373,
+  "f0_mediana_hz": 94.69369353469159,
+  "f0_std_st": 2.7208625696773066,
+  "f0_rango_st": 9.267160966837467,
+  "jitter_pct": 3.4329160647999415,
+  "shimmer_pct": 8.486555797297077,
+  "hnr_db": 10.742552660222536,
+  "dnsmos_sig": 3.7808676161196977,
+  "dnsmos_bak": 4.234070698684766,
+  "dnsmos_ovrl": 3.614859872884135,
+  "dnsmos_p808": 4.261375904083252,
+  "dnsmos_sig_min": 3.7766893502840353,
+  "dnsmos_ovrl_min": 3.6100137460322497,
+  "nisqa_tts_total": 4.237479209899902,
+  "nisqa_tts_media": 4.33111572265625,
+  "nisqa_tts_peor_ventana": 4.33111572265625,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.33
+   ]
+  ],
+  "pausa_max_s": 0.99,
+  "pausa_media_s": 0.99,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 4.881656804733728,
+  "pausas": [
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.99,
+    "en_s": 2.99,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.57,
+    "en_s": 5.32,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 1,
+  "pausas_faltan_tras": [
+   "Paranoia"
+  ],
+  "fallos": [
+   "jitter_pct=3.433 (objetivo <= 3.0)",
+   "pausas_raras=1.000 (objetivo <= 0)",
+   "pausa_media_s=0.990 (objetivo rango (0.35, 0.95))",
+   "silencio_inicio_s=0.840 (objetivo <= 0.8)"
+  ],
+  "aprobado": false,
+  "nota": 18.363
+ },
+ {
+  "archivo": "f4_t15.wav",
+  "duracion_s": 7.52,
+  "pico_dbfs": -3.9744990016585224,
+  "clipping_muestras": 0,
+  "lufs": -20.305386552761476,
+  "clics": 0,
+  "silencio_inicio_s": 0.66,
+  "silencio_final_s": 0.18,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 3.954802259887006,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.650109453190474,
+  "f0_mediana_hz": 95.96631257969128,
+  "f0_std_st": 3.0457179194376813,
+  "f0_rango_st": 10.05231697900594,
+  "jitter_pct": 3.3401221722552896,
+  "shimmer_pct": 8.731462175385907,
+  "hnr_db": 11.057058201134003,
+  "dnsmos_sig": 3.7749962052389052,
+  "dnsmos_bak": 4.227337367511053,
+  "dnsmos_ovrl": 3.6020420254705114,
+  "dnsmos_p808": 4.2613935470581055,
+  "dnsmos_sig_min": 3.769253156849562,
+  "dnsmos_ovrl_min": 3.595653481521689,
+  "nisqa_tts_total": 4.204250335693359,
+  "nisqa_tts_media": 4.147300720214844,
+  "nisqa_tts_peor_ventana": 4.147300720214844,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.15
+   ]
+  ],
+  "pausa_max_s": 0.98,
+  "pausa_media_s": 0.86,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.021897810218978,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.74,
+    "en_s": 1.24,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.98,
+    "en_s": 2.53,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.32,
+    "en_s": 4.86,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.340 (objetivo <= 3.0)",
+   "pausas_raras=1.000 (objetivo <= 0)"
+  ],
+  "aprobado": false,
+  "nota": 17.982
+ },
+ {
+  "archivo": "f4_t16.wav",
+  "duracion_s": 7.2,
+  "pico_dbfs": -4.4143848750688495,
+  "clipping_muestras": 0,
+  "lufs": -19.716895996877778,
+  "clics": 0,
+  "silencio_inicio_s": 0.3,
+  "silencio_final_s": 0.15,
+  "piso_ruido_db_rel": -73.05989074707031,
+  "f0_picos_pct": 2.4,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.2336242732314666,
+  "f0_mediana_hz": 96.50111137966954,
+  "f0_std_st": 2.898934194364552,
+  "f0_rango_st": 8.941832495921542,
+  "jitter_pct": 3.047582534113309,
+  "shimmer_pct": 8.282174566318965,
+  "hnr_db": 12.262863776125133,
+  "dnsmos_sig": 3.7779711024696434,
+  "dnsmos_bak": 4.241405124661251,
+  "dnsmos_ovrl": 3.607021318409049,
+  "dnsmos_p808": 4.31278133392334,
+  "dnsmos_sig_min": 3.761880326356829,
+  "dnsmos_ovrl_min": 3.5890892302396273,
+  "nisqa_tts_total": 4.300088882446289,
+  "nisqa_tts_media": 4.126121520996094,
+  "nisqa_tts_peor_ventana": 4.126121520996094,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.13
+   ]
+  ],
+  "pausa_max_s": 0.8,
+  "pausa_media_s": 0.77,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.203007518796992,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.74,
+    "en_s": 0.94,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.8,
+    "en_s": 2.29,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.34,
+    "en_s": 4.46,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.048 (objetivo <= 3.0)",
+   "pausas_raras=1.000 (objetivo <= 0)"
+  ],
+  "aprobado": false,
+  "nota": 18.536
+ },
+ {
+  "archivo": "f4_t17.wav",
+  "duracion_s": 7.12,
+  "pico_dbfs": -2.9633715343179805,
+  "clipping_muestras": 0,
+  "lufs": -20.19470070005754,
+  "clics": 0,
+  "silencio_inicio_s": 0.85,
+  "silencio_final_s": 0.25,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 3.1428571428571432,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.979233308852109,
+  "f0_mediana_hz": 91.26268402979011,
+  "f0_std_st": 2.4457332719633476,
+  "f0_rango_st": 7.480764672655861,
+  "jitter_pct": 3.1521296844553786,
+  "shimmer_pct": 8.995087800947406,
+  "hnr_db": 11.278135254110254,
+  "dnsmos_sig": 3.7575047877265995,
+  "dnsmos_bak": 4.2337828680321055,
+  "dnsmos_ovrl": 3.5935220187715005,
+  "dnsmos_p808": 4.435631275177002,
+  "dnsmos_sig_min": 3.753088935356052,
+  "dnsmos_ovrl_min": 3.584434168663194,
+  "nisqa_tts_total": 4.081270217895508,
+  "nisqa_tts_media": 4.151826858520508,
+  "nisqa_tts_peor_ventana": 4.151826858520508,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.15
+   ]
+  ],
+  "pausa_max_s": 0.57,
+  "pausa_media_s": 0.57,
+  "transcripcion": "Paranoia. Tal vez, pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.038167938931298,
+  "pausas": [
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.57,
+    "en_s": 2.83,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 1,
+  "pausas_faltan_tras": [
+   "Paranoia"
+  ],
+  "fallos": [
+   "f0_std_st=2.446 (objetivo >= 2.5)",
+   "f0_rango_st=7.481 (objetivo >= 8.0)",
+   "jitter_pct=3.152 (objetivo <= 3.0)",
+   "silencio_inicio_s=0.850 (objetivo <= 0.8)"
+  ],
+  "aprobado": false,
+  "nota": 19.441
+ },
+ {
+  "archivo": "f4_t18.wav",
+  "duracion_s": 6.72,
+  "pico_dbfs": -3.5048770853904774,
+  "clipping_muestras": 0,
+  "lufs": -19.76885763456028,
+  "clics": 0,
+  "silencio_inicio_s": 0.06,
+  "silencio_final_s": 0.11,
+  "piso_ruido_db_rel": -67.45150756835938,
+  "f0_picos_pct": 4.225352112676056,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.4164272971898537,
+  "f0_mediana_hz": 95.79178357279294,
+  "f0_std_st": 3.206295626522348,
+  "f0_rango_st": 10.507061836615557,
+  "jitter_pct": 3.179092276132954,
+  "shimmer_pct": 9.24614251306818,
+  "hnr_db": 10.848027491307242,
+  "dnsmos_sig": 3.7599533704068158,
+  "dnsmos_bak": 4.233270973015127,
+  "dnsmos_ovrl": 3.587786774217271,
+  "dnsmos_p808": 4.350001811981201,
+  "dnsmos_sig_min": 3.7487012060027385,
+  "dnsmos_ovrl_min": 3.571858497180437,
+  "nisqa_tts_total": 4.07272481918335,
+  "nisqa_tts_media": 3.9403035640716553,
+  "nisqa_tts_peor_ventana": 3.9403035640716553,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.94
+   ]
+  ],
+  "pausa_max_s": 0.79,
+  "pausa_media_s": 0.77,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.762295081967213,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.79,
+    "en_s": 0.66,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.75,
+    "en_s": 2.02,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.3,
+    "en_s": 4.14,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.940 (objetivo >= 4.0)",
+   "jitter_pct=3.179 (objetivo <= 3.0)",
+   "f0_picos_pct=4.225 (objetivo <= 4.0)",
+   "pausas_raras=1.000 (objetivo <= 0)"
+  ],
+  "aprobado": false,
+  "nota": 17.638
+ },
+ {
+  "archivo": "f4_t19.wav",
+  "duracion_s": 6.48,
+  "pico_dbfs": -3.7626375320407828,
+  "clipping_muestras": 0,
+  "lufs": -20.095320413561964,
+  "clics": 0,
+  "silencio_inicio_s": 0.14,
+  "silencio_final_s": 0.17,
+  "piso_ruido_db_rel": -66.17135620117188,
+  "f0_picos_pct": 0.5571030640668524,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.1075468538767055,
+  "f0_mediana_hz": 93.15068964669669,
+  "f0_std_st": 2.230096353906691,
+  "f0_rango_st": 6.999279075353685,
+  "jitter_pct": 3.4051954233236987,
+  "shimmer_pct": 9.680626530170787,
+  "hnr_db": 11.84839078168277,
+  "dnsmos_sig": 3.766496234498532,
+  "dnsmos_bak": 4.238809477103137,
+  "dnsmos_ovrl": 3.5941533867140407,
+  "dnsmos_p808": 4.31915807723999,
+  "dnsmos_sig_min": 3.7596799455273175,
+  "dnsmos_ovrl_min": 3.586977415370917,
+  "nisqa_tts_total": 4.0826215744018555,
+  "nisqa_tts_media": 4.195093631744385,
+  "nisqa_tts_peor_ventana": 4.195093631744385,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.2
+   ]
+  ],
+  "pausa_max_s": 0.81,
+  "pausa_media_s": 0.7450000000000001,
+  "transcripcion": "¿Paranoia? Tal vez, pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.613226452905812,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.68,
+    "en_s": 0.75,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.81,
+    "en_s": 1.97,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.230 (objetivo >= 2.5)",
+   "f0_rango_st=6.999 (objetivo >= 8.0)",
+   "jitter_pct=3.405 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.012
+ },
+ {
+  "archivo": "f4_t20.wav",
+  "duracion_s": 7.2,
+  "pico_dbfs": -3.815120408482576,
+  "clipping_muestras": 0,
+  "lufs": -19.80156275086692,
+  "clics": 0,
+  "silencio_inicio_s": 0.12,
+  "silencio_final_s": 0.17,
+  "piso_ruido_db_rel": -65.80018615722656,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.836961392096189,
+  "f0_mediana_hz": 94.590904159702,
+  "f0_std_st": 2.619500301917261,
+  "f0_rango_st": 7.818743512143291,
+  "jitter_pct": 3.220009984628332,
+  "shimmer_pct": 8.987168540426529,
+  "hnr_db": 11.33330907689246,
+  "dnsmos_sig": 3.7868661759494358,
+  "dnsmos_bak": 4.2320728830910515,
+  "dnsmos_ovrl": 3.6145645370702875,
+  "dnsmos_p808": 4.297095775604248,
+  "dnsmos_sig_min": 3.7785973427385597,
+  "dnsmos_ovrl_min": 3.6026877186525295,
+  "nisqa_tts_total": 4.085182189941406,
+  "nisqa_tts_media": 3.978606939315796,
+  "nisqa_tts_peor_ventana": 3.978606939315796,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.98
+   ]
+  ],
+  "pausa_max_s": 1.01,
+  "pausa_media_s": 0.9,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.626506024096385,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.79,
+    "en_s": 0.71,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 1.01,
+    "en_s": 2.01,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.42,
+    "en_s": 4.39,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.979 (objetivo >= 4.0)",
+   "f0_rango_st=7.819 (objetivo >= 8.0)",
+   "jitter_pct=3.220 (objetivo <= 3.0)",
+   "pausas_raras=1.000 (objetivo <= 0)"
+  ],
+  "aprobado": false,
+  "nota": 17.752
+ },
+ {
+  "archivo": "f4_t21.wav",
+  "duracion_s": 7.84,
+  "pico_dbfs": -3.0112277965682868,
+  "clipping_muestras": 0,
+  "lufs": -19.07498636918346,
+  "clics": 0,
+  "silencio_inicio_s": 0.11,
+  "silencio_final_s": 0.22,
+  "piso_ruido_db_rel": -66.1204605102539,
+  "f0_picos_pct": 0.26666666666666666,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.6834047472358655,
+  "f0_mediana_hz": 99.28925007261094,
+  "f0_std_st": 2.9198067073863823,
+  "f0_rango_st": 9.740644565084892,
+  "jitter_pct": 3.27976364952557,
+  "shimmer_pct": 8.273682912960647,
+  "hnr_db": 12.123574437398293,
+  "dnsmos_sig": 3.745136800669265,
+  "dnsmos_bak": 4.2294952982003515,
+  "dnsmos_ovrl": 3.5786623081661446,
+  "dnsmos_p808": 4.302670001983643,
+  "dnsmos_sig_min": 3.727493063076036,
+  "dnsmos_ovrl_min": 3.563422130818395,
+  "nisqa_tts_total": 4.256752014160156,
+  "nisqa_tts_media": 4.373255729675293,
+  "nisqa_tts_peor_ventana": 4.373255729675293,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.37
+   ]
+  ],
+  "pausa_max_s": 1.34,
+  "pausa_media_s": 1.0550000000000002,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.382978723404255,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.77,
+    "en_s": 0.72,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 1.34,
+    "en_s": 2.05,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.56,
+    "en_s": 4.77,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.280 (objetivo <= 3.0)",
+   "pausas_raras=1.000 (objetivo <= 0)",
+   "pausa_max_s=1.340 (objetivo <= 1.3)",
+   "pausa_media_s=1.055 (objetivo rango (0.35, 0.95))"
+  ],
+  "aprobado": false,
+  "nota": 18.763
+ },
+ {
+  "archivo": "f4_t22.wav",
+  "duracion_s": 6.72,
+  "pico_dbfs": -3.4542303551581774,
+  "clipping_muestras": 0,
+  "lufs": -19.52108652473728,
+  "clics": 0,
+  "silencio_inicio_s": 0.38,
+  "silencio_final_s": 0.25,
+  "piso_ruido_db_rel": -79.24192810058594,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.7893516192513594,
+  "f0_mediana_hz": 91.06301470854912,
+  "f0_std_st": 2.1510917643013197,
+  "f0_rango_st": 7.700518076706045,
+  "jitter_pct": 3.2512078534252433,
+  "shimmer_pct": 9.225933360738479,
+  "hnr_db": 11.336683807075872,
+  "dnsmos_sig": 3.727949433855013,
+  "dnsmos_bak": 4.2010173988253126,
+  "dnsmos_ovrl": 3.5373697887289137,
+  "dnsmos_p808": 4.252129077911377,
+  "dnsmos_sig_min": 3.722561004420375,
+  "dnsmos_ovrl_min": 3.5281117760462597,
+  "nisqa_tts_total": 4.06265115737915,
+  "nisqa_tts_media": 3.891796350479126,
+  "nisqa_tts_peor_ventana": 3.891796350479126,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.89
+   ]
+  ],
+  "pausa_max_s": 0.67,
+  "pausa_media_s": 0.655,
+  "transcripcion": "¿Paranoia? Tal vez, pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.099815157116451,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.67,
+    "en_s": 1.02,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.64,
+    "en_s": 2.25,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.892 (objetivo >= 4.0)",
+   "f0_std_st=2.151 (objetivo >= 2.5)",
+   "f0_rango_st=7.701 (objetivo >= 8.0)",
+   "jitter_pct=3.251 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.3
+ },
+ {
+  "archivo": "f4_t23.wav",
+  "duracion_s": 7.76,
+  "pico_dbfs": -4.9374392462024055,
+  "clipping_muestras": 0,
+  "lufs": -20.69292251599937,
+  "clics": 0,
+  "silencio_inicio_s": 1.18,
+  "silencio_final_s": 0.17,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 1.366120218579235,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.0201858755918565,
+  "f0_mediana_hz": 95.70032090235104,
+  "f0_std_st": 2.992179167558946,
+  "f0_rango_st": 9.996670504350176,
+  "jitter_pct": 3.198761611296561,
+  "shimmer_pct": 8.694375831425013,
+  "hnr_db": 11.269530847464974,
+  "dnsmos_sig": 3.780728514235253,
+  "dnsmos_bak": 4.25471318443274,
+  "dnsmos_ovrl": 3.6214522840418097,
+  "dnsmos_p808": 4.218272686004639,
+  "dnsmos_sig_min": 3.775993481850829,
+  "dnsmos_ovrl_min": 3.6120190108722747,
+  "nisqa_tts_total": 4.171602249145508,
+  "nisqa_tts_media": 4.279059886932373,
+  "nisqa_tts_peor_ventana": 4.279059886932373,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.28
+   ]
+  ],
+  "pausa_max_s": 0.75,
+  "pausa_media_s": 0.7050000000000001,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.427631578947368,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.66,
+    "en_s": 1.79,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.75,
+    "en_s": 3.02,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.27,
+    "en_s": 5.14,
+    "rara": false,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.199 (objetivo <= 3.0)",
+   "silencio_inicio_s=1.180 (objetivo <= 0.8)"
+  ],
+  "aprobado": false,
+  "nota": 19.661
+ },
+ {
+  "archivo": "f4_t24.wav",
+  "duracion_s": 6.8,
+  "pico_dbfs": -2.6355632110070943,
+  "clipping_muestras": 0,
+  "lufs": -19.71283056747824,
+  "clics": 0,
+  "silencio_inicio_s": 0.25,
+  "silencio_final_s": 0.33,
+  "piso_ruido_db_rel": -67.28558349609375,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 1.5632372052525092,
+  "f0_mediana_hz": 95.50122068257481,
+  "f0_std_st": 1.7587592739795015,
+  "f0_rango_st": 6.40509969654264,
+  "jitter_pct": 3.143713448925103,
+  "shimmer_pct": 7.878556453203895,
+  "hnr_db": 11.22975693711141,
+  "dnsmos_sig": 3.804731503498834,
+  "dnsmos_bak": 4.24694728923863,
+  "dnsmos_ovrl": 3.639177855180073,
+  "dnsmos_p808": 4.23524284362793,
+  "dnsmos_sig_min": 3.790443144332476,
+  "dnsmos_ovrl_min": 3.624545348225876,
+  "nisqa_tts_total": 4.1997904777526855,
+  "nisqa_tts_media": 3.9375243186950684,
+  "nisqa_tts_peor_ventana": 3.9375243186950684,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.94
+   ]
+  ],
+  "pausa_max_s": 0.83,
+  "pausa_media_s": 0.705,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.122448979591837,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.58,
+    "en_s": 0.83,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.83,
+    "en_s": 1.96,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.938 (objetivo >= 4.0)",
+   "f0_std_st=1.759 (objetivo >= 2.5)",
+   "f0_rango_st=6.405 (objetivo >= 8.0)",
+   "jitter_pct=3.144 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.784
+ },
+ {
+  "archivo": "f4_t25.wav",
+  "duracion_s": 7.76,
+  "pico_dbfs": -3.5048770853904774,
+  "clipping_muestras": 0,
+  "lufs": -20.466798649536276,
+  "clics": 0,
+  "silencio_inicio_s": 0.87,
+  "silencio_final_s": 0.35000000000000003,
+  "piso_ruido_db_rel": -78.69510650634766,
+  "f0_picos_pct": 2.9850746268656714,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 1.9051700560888776,
+  "f0_mediana_hz": 92.19587748143496,
+  "f0_std_st": 2.5595599652493344,
+  "f0_rango_st": 8.485384712156298,
+  "jitter_pct": 3.4280292014215616,
+  "shimmer_pct": 9.567293420714751,
+  "hnr_db": 10.894393580474631,
+  "dnsmos_sig": 3.7886060029376445,
+  "dnsmos_bak": 4.2434291546010146,
+  "dnsmos_ovrl": 3.6175848030147026,
+  "dnsmos_p808": 4.294752597808838,
+  "dnsmos_sig_min": 3.7729707618460444,
+  "dnsmos_ovrl_min": 3.5964249808889024,
+  "nisqa_tts_total": 4.106869697570801,
+  "nisqa_tts_media": 4.246665000915527,
+  "nisqa_tts_peor_ventana": 4.246665000915527,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.25
+   ]
+  ],
+  "pausa_max_s": 1.0,
+  "pausa_media_s": 1.0,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.092592592592593,
+  "pausas": [
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 1.0,
+    "en_s": 2.77,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.28,
+    "en_s": 5.05,
+    "rara": false,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 1,
+  "pausas_faltan_tras": [
+   "Paranoia"
+  ],
+  "fallos": [
+   "jitter_pct=3.428 (objetivo <= 3.0)",
+   "pausa_media_s=1.000 (objetivo rango (0.35, 0.95))",
+   "silencio_inicio_s=0.870 (objetivo <= 0.8)"
+  ],
+  "aprobado": false,
+  "nota": 19.143
+ },
+ {
+  "archivo": "f4_t26.wav",
+  "duracion_s": 6.88,
+  "pico_dbfs": -3.867922331724572,
+  "clipping_muestras": 0,
+  "lufs": -19.78980450201237,
+  "clics": 0,
+  "silencio_inicio_s": 0.58,
+  "silencio_final_s": 0.26,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 0.5830903790087464,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.3278726192121013,
+  "f0_mediana_hz": 94.22274535758274,
+  "f0_std_st": 2.0060549444621123,
+  "f0_rango_st": 6.97369164223292,
+  "jitter_pct": 3.4139375194472574,
+  "shimmer_pct": 9.845141741227332,
+  "hnr_db": 11.214099464026326,
+  "dnsmos_sig": 3.7642139972425377,
+  "dnsmos_bak": 4.234925420309392,
+  "dnsmos_ovrl": 3.5853405306582578,
+  "dnsmos_p808": 4.32517147064209,
+  "dnsmos_sig_min": 3.762472086060954,
+  "dnsmos_ovrl_min": 3.5832767186148575,
+  "nisqa_tts_total": 4.063503742218018,
+  "nisqa_tts_media": 4.220917224884033,
+  "nisqa_tts_peor_ventana": 4.220917224884033,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.22
+   ]
+  ],
+  "pausa_max_s": 0.74,
+  "pausa_media_s": 0.74,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.111111111111111,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.74,
+    "en_s": 1.16,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.74,
+    "en_s": 2.45,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.006 (objetivo >= 2.5)",
+   "f0_rango_st=6.974 (objetivo >= 8.0)",
+   "jitter_pct=3.414 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.065
+ },
+ {
+  "archivo": "f4_t27.wav",
+  "duracion_s": 7.52,
+  "pico_dbfs": -3.9744990016585224,
+  "clipping_muestras": 0,
+  "lufs": -19.71831490646026,
+  "clics": 0,
+  "silencio_inicio_s": 0.9500000000000001,
+  "silencio_final_s": 0.22,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 3.389830508474576,
+  "f0_fry_pct": 0.2824858757062147,
+  "salto_volumen_db": 2.5970704894412755,
+  "f0_mediana_hz": 99.75857298673498,
+  "f0_std_st": 2.9163019392650904,
+  "f0_rango_st": 9.849222621874915,
+  "jitter_pct": 3.3050376430654733,
+  "shimmer_pct": 9.436277086075611,
+  "hnr_db": 10.778157686175536,
+  "dnsmos_sig": 3.8458106353417367,
+  "dnsmos_bak": 4.257751368609185,
+  "dnsmos_ovrl": 3.6876283019252427,
+  "dnsmos_p808": 4.302478313446045,
+  "dnsmos_sig_min": 3.84171041622786,
+  "dnsmos_ovrl_min": 3.6853208129240977,
+  "nisqa_tts_total": 4.372889518737793,
+  "nisqa_tts_media": 4.686020374298096,
+  "nisqa_tts_peor_ventana": 4.686020374298096,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.69
+   ]
+  ],
+  "pausa_max_s": 0.87,
+  "pausa_media_s": 0.87,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 4.962406015037595,
+  "pausas": [
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.87,
+    "en_s": 2.92,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 1,
+  "pausas_faltan_tras": [
+   "Paranoia"
+  ],
+  "fallos": [
+   "jitter_pct=3.305 (objetivo <= 3.0)",
+   "silencio_inicio_s=0.950 (objetivo <= 0.8)"
+  ],
+  "aprobado": false,
+  "nota": 20.81
+ },
+ {
+  "archivo": "f4_t28.wav",
+  "duracion_s": 7.92,
+  "pico_dbfs": -4.527927532712674,
+  "clipping_muestras": 0,
+  "lufs": -21.079541500049157,
+  "clics": 0,
+  "silencio_inicio_s": 0.88,
+  "silencio_final_s": 0.36,
+  "piso_ruido_db_rel": -66.84261322021484,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.8585757394911724,
+  "f0_mediana_hz": 94.89983929901203,
+  "f0_std_st": 2.3440577032765484,
+  "f0_rango_st": 7.754225559756326,
+  "jitter_pct": 3.31979208377072,
+  "shimmer_pct": 8.736489334432397,
+  "hnr_db": 10.485200527626057,
+  "dnsmos_sig": 3.799500472472909,
+  "dnsmos_bak": 4.245812945996691,
+  "dnsmos_ovrl": 3.6280857932208037,
+  "dnsmos_p808": 4.188787937164307,
+  "dnsmos_sig_min": 3.774670895201615,
+  "dnsmos_ovrl_min": 3.605755567195052,
+  "nisqa_tts_total": 4.132916450500488,
+  "nisqa_tts_media": 4.281824588775635,
+  "nisqa_tts_peor_ventana": 4.281824588775635,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.28
+   ]
+  ],
+  "pausa_max_s": 0.99,
+  "pausa_media_s": 0.875,
+  "transcripcion": "¿Paranoia? Tal vez. Pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.67986230636833,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.76,
+    "en_s": 1.46,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.99,
+    "en_s": 2.73,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.36,
+    "en_s": 5.06,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.344 (objetivo >= 2.5)",
+   "f0_rango_st=7.754 (objetivo >= 8.0)",
+   "jitter_pct=3.320 (objetivo <= 3.0)",
+   "pausas_raras=1.000 (objetivo <= 0)",
+   "silencio_inicio_s=0.880 (objetivo <= 0.8)"
+  ],
+  "aprobado": false,
+  "nota": 18.421
+ },
+ {
+  "archivo": "f4_t29.wav",
+  "duracion_s": 6.48,
+  "pico_dbfs": -3.7626375320407828,
+  "clipping_muestras": 0,
+  "lufs": -20.390113719312687,
+  "clics": 0,
+  "silencio_inicio_s": 0.15,
+  "silencio_final_s": 0.17,
+  "piso_ruido_db_rel": -64.44081115722656,
+  "f0_picos_pct": 2.2222222222222223,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.5547413977061453,
+  "f0_mediana_hz": 95.14126202130429,
+  "f0_std_st": 3.2413453602875575,
+  "f0_rango_st": 10.236909639363214,
+  "jitter_pct": 2.985036257348202,
+  "shimmer_pct": 7.826298743078,
+  "hnr_db": 11.326639012662277,
+  "dnsmos_sig": 3.783653742017273,
+  "dnsmos_bak": 4.230339294442833,
+  "dnsmos_ovrl": 3.6075185891214065,
+  "dnsmos_p808": 4.223113536834717,
+  "dnsmos_sig_min": 3.745857900037467,
+  "dnsmos_ovrl_min": 3.566724974603936,
+  "nisqa_tts_total": 3.897285223007202,
+  "nisqa_tts_media": 3.8425018787384033,
+  "nisqa_tts_peor_ventana": 3.8425018787384033,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.84
+   ]
+  ],
+  "pausa_max_s": 0.55,
+  "pausa_media_s": 0.525,
+  "transcripcion": "¿Paranoia? Tal vez, pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.4453125,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.55,
+    "en_s": 0.78,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.5,
+    "en_s": 1.89,
+    "rara": false,
+    "_idx": 2
+   },
+   {
+    "tras": "hoy",
+    "punt": "",
+    "dur": 0.31,
+    "en_s": 3.79,
+    "rara": true,
+    "_idx": 9
+   }
+  ],
+  "pausas_raras": 1,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.843 (objetivo >= 4.0)",
+   "pausas_raras=1.000 (objetivo <= 0)"
+  ],
+  "aprobado": false,
+  "nota": 17.768
+ },
+ {
+  "archivo": "f4_t30.wav",
+  "duracion_s": 6.96,
+  "pico_dbfs": -4.302307324893992,
+  "clipping_muestras": 0,
+  "lufs": -20.6596997294008,
+  "clics": 0,
+  "silencio_inicio_s": 0.4,
+  "silencio_final_s": 0.19,
+  "piso_ruido_db_rel": -71.09443664550781,
+  "f0_picos_pct": 0.847457627118644,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.444126595631751,
+  "f0_mediana_hz": 91.80883739578857,
+  "f0_std_st": 2.557512716987039,
+  "f0_rango_st": 8.266475723758855,
+  "jitter_pct": 3.344504571255955,
+  "shimmer_pct": 9.114547182663555,
+  "hnr_db": 10.791771520092576,
+  "dnsmos_sig": 3.786837458327189,
+  "dnsmos_bak": 4.243114773039536,
+  "dnsmos_ovrl": 3.618872909571729,
+  "dnsmos_p808": 4.247491836547852,
+  "dnsmos_sig_min": 3.766077929411623,
+  "dnsmos_ovrl_min": 3.5968488164487797,
+  "nisqa_tts_total": 4.164528846740723,
+  "nisqa_tts_media": 4.202260494232178,
+  "nisqa_tts_peor_ventana": 4.202260494232178,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.2
+   ]
+  ],
+  "pausa_max_s": 0.91,
+  "pausa_media_s": 0.795,
+  "transcripcion": "¿Paranoia? Tal vez, pero lo que vas a escuchar hoy te va a hacer mirar tu teléfono de otra manera.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.145251396648044,
+  "pausas": [
+   {
+    "tras": "Paranoia",
+    "punt": "?",
+    "dur": 0.91,
+    "en_s": 0.99,
+    "rara": false,
+    "_idx": 0
+   },
+   {
+    "tras": "vez",
+    "punt": ".",
+    "dur": 0.68,
+    "en_s": 2.45,
+    "rara": false,
+    "_idx": 2
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.345 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.154
+ }
+]

@@ -1,0 +1,411 @@
+[
+ {
+  "archivo": "f1_t1.wav",
+  "duracion_s": 6.48,
+  "pico_dbfs": -3.0593491918176046,
+  "clipping_muestras": 0,
+  "lufs": -18.93378034320955,
+  "clics": 0,
+  "silencio_inicio_s": 0.04,
+  "silencio_final_s": 0.14,
+  "piso_ruido_db_rel": -68.08160400390625,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 5.582748224115875,
+  "f0_mediana_hz": 94.50653132750803,
+  "f0_std_st": 2.699889466148512,
+  "f0_rango_st": 8.123181381429692,
+  "jitter_pct": 3.040945950452617,
+  "shimmer_pct": 8.98737644970755,
+  "hnr_db": 11.56369346638099,
+  "dnsmos_sig": 3.690191843951309,
+  "dnsmos_bak": 4.216900735183807,
+  "dnsmos_ovrl": 3.4982674284712103,
+  "dnsmos_p808": 4.281395435333252,
+  "dnsmos_sig_min": 3.6724866082487986,
+  "dnsmos_ovrl_min": 3.481016682020864,
+  "nisqa_tts_total": 4.322429180145264,
+  "nisqa_tts_media": 4.5081562995910645,
+  "nisqa_tts_peor_ventana": 4.5081562995910645,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.51
+   ]
+  ],
+  "pausa_max_s": 0.59,
+  "pausa_media_s": 0.53,
+  "transcripcion": "Son las 3 y 17 de la mañana. Te despierta la vibración del teléfono, pero no hay ninguna notificación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 7.011070110701107,
+  "pausas": [
+   {
+    "tras": "mañana",
+    "punt": ".",
+    "dur": 0.59,
+    "en_s": 1.94,
+    "rara": false,
+    "_idx": 7
+   },
+   {
+    "tras": "teléfono",
+    "punt": "...",
+    "dur": 0.47,
+    "en_s": 4.32,
+    "rara": false,
+    "_idx": 13
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.041 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 20.527
+ },
+ {
+  "archivo": "f1_t2.wav",
+  "duracion_s": 7.52,
+  "pico_dbfs": -3.9744990016585224,
+  "clipping_muestras": 0,
+  "lufs": -19.68038630542129,
+  "clics": 0,
+  "silencio_inicio_s": 0.33,
+  "silencio_final_s": 0.2,
+  "piso_ruido_db_rel": -68.13714599609375,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 4.145265414023646,
+  "f0_mediana_hz": 98.81483948448975,
+  "f0_std_st": 2.5723273177454313,
+  "f0_rango_st": 7.9503404387283965,
+  "jitter_pct": 3.259394897737975,
+  "shimmer_pct": 7.516398537223745,
+  "hnr_db": 11.415631737388038,
+  "dnsmos_sig": 3.67604989803421,
+  "dnsmos_bak": 4.1902359173604795,
+  "dnsmos_ovrl": 3.4862559932041814,
+  "dnsmos_p808": 4.21033239364624,
+  "dnsmos_sig_min": 3.6685607083721803,
+  "dnsmos_ovrl_min": 3.475937460507915,
+  "nisqa_tts_total": 4.107022285461426,
+  "nisqa_tts_media": 4.221673965454102,
+  "nisqa_tts_peor_ventana": 4.221673965454102,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.22
+   ]
+  ],
+  "pausa_max_s": 0.7,
+  "pausa_media_s": 0.62,
+  "transcripcion": "Son las 3 y 17 de la mañana. Te despierta la vibración del teléfono, pero no hay ninguna notificación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.05095541401274,
+  "pausas": [
+   {
+    "tras": "mañana",
+    "punt": ".",
+    "dur": 0.54,
+    "en_s": 2.48,
+    "rara": false,
+    "_idx": 7
+   },
+   {
+    "tras": "teléfono",
+    "punt": "...",
+    "dur": 0.7,
+    "en_s": 4.93,
+    "rara": false,
+    "_idx": 13
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_rango_st=7.950 (objetivo >= 8.0)",
+   "jitter_pct=3.259 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.176
+ },
+ {
+  "archivo": "f1_t3.wav",
+  "duracion_s": 7.28,
+  "pico_dbfs": -3.3538143278057575,
+  "clipping_muestras": 0,
+  "lufs": -19.16174194555366,
+  "clics": 0,
+  "silencio_inicio_s": 0.34,
+  "silencio_final_s": 0.2,
+  "piso_ruido_db_rel": -69.2854995727539,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 5.821923589524442,
+  "f0_mediana_hz": 96.3727892873468,
+  "f0_std_st": 2.08614505790105,
+  "f0_rango_st": 7.2842788969894805,
+  "jitter_pct": 2.9507850440568557,
+  "shimmer_pct": 8.692444624464231,
+  "hnr_db": 11.772337828833308,
+  "dnsmos_sig": 3.718200243264156,
+  "dnsmos_bak": 4.220010230403633,
+  "dnsmos_ovrl": 3.5460006579816996,
+  "dnsmos_p808": 4.192238807678223,
+  "dnsmos_sig_min": 3.706611591236934,
+  "dnsmos_ovrl_min": 3.52942281187511,
+  "nisqa_tts_total": 3.990994930267334,
+  "nisqa_tts_media": 4.375072002410889,
+  "nisqa_tts_peor_ventana": 4.375072002410889,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.38
+   ]
+  ],
+  "pausa_max_s": 0.66,
+  "pausa_media_s": 0.595,
+  "transcripcion": "Son las 3 y 17 de la mañana. Te despierta la vibración del teléfono, pero no hay ninguna notificación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.239737274220033,
+  "pausas": [
+   {
+    "tras": "mañana",
+    "punt": ".",
+    "dur": 0.66,
+    "en_s": 2.44,
+    "rara": false,
+    "_idx": 7
+   },
+   {
+    "tras": "teléfono",
+    "punt": "...",
+    "dur": 0.53,
+    "en_s": 4.97,
+    "rara": false,
+    "_idx": 13
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.086 (objetivo >= 2.5)",
+   "f0_rango_st=7.284 (objetivo >= 8.0)"
+  ],
+  "aprobado": false,
+  "nota": 20.325
+ },
+ {
+  "archivo": "f1_t4.wav",
+  "duracion_s": 7.44,
+  "pico_dbfs": -3.7104698699704293,
+  "clipping_muestras": 0,
+  "lufs": -19.799891747645347,
+  "clics": 0,
+  "silencio_inicio_s": 0.1,
+  "silencio_final_s": 0.2,
+  "piso_ruido_db_rel": -61.009403228759766,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 5.370509569212597,
+  "f0_mediana_hz": 94.9748091299181,
+  "f0_std_st": 2.412082577938962,
+  "f0_rango_st": 8.06535014209457,
+  "jitter_pct": 3.0416458945654075,
+  "shimmer_pct": 8.729842125019614,
+  "hnr_db": 11.376950012399137,
+  "dnsmos_sig": 3.683599980882504,
+  "dnsmos_bak": 4.175477467226562,
+  "dnsmos_ovrl": 3.4785352922926536,
+  "dnsmos_p808": 4.2454118728637695,
+  "dnsmos_sig_min": 3.6745954882902283,
+  "dnsmos_ovrl_min": 3.458800572850899,
+  "nisqa_tts_total": 4.1200852394104,
+  "nisqa_tts_media": 4.208864212036133,
+  "nisqa_tts_peor_ventana": 4.208864212036133,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.21
+   ]
+  ],
+  "pausa_max_s": 0.78,
+  "pausa_media_s": 0.765,
+  "transcripcion": "Son las 3 y 17 de la mañana. Te despierta la vibración del teléfono, pero no hay ninguna notificación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.429780033840947,
+  "pausas": [
+   {
+    "tras": "mañana",
+    "punt": ".",
+    "dur": 0.78,
+    "en_s": 2.16,
+    "rara": false,
+    "_idx": 7
+   },
+   {
+    "tras": "teléfono",
+    "punt": "...",
+    "dur": 0.75,
+    "en_s": 4.84,
+    "rara": false,
+    "_idx": 13
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.412 (objetivo >= 2.5)",
+   "jitter_pct=3.042 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.586
+ },
+ {
+  "archivo": "f1_t5.wav",
+  "duracion_s": 7.12,
+  "pico_dbfs": -3.6070652008061965,
+  "clipping_muestras": 0,
+  "lufs": -19.527122930181225,
+  "clics": 0,
+  "silencio_inicio_s": 0.14,
+  "silencio_final_s": 0.08,
+  "piso_ruido_db_rel": -66.51282501220703,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 4.790390449570001,
+  "f0_mediana_hz": 94.67940345290504,
+  "f0_std_st": 2.5787599596437487,
+  "f0_rango_st": 8.794385957916543,
+  "jitter_pct": 3.020046199127125,
+  "shimmer_pct": 8.88784715013817,
+  "hnr_db": 11.168032119860364,
+  "dnsmos_sig": 3.7206765104686523,
+  "dnsmos_bak": 4.192792173785253,
+  "dnsmos_ovrl": 3.545174191599506,
+  "dnsmos_p808": 4.296485900878906,
+  "dnsmos_sig_min": 3.71208258552869,
+  "dnsmos_ovrl_min": 3.5330577731547392,
+  "nisqa_tts_total": 3.9126527309417725,
+  "nisqa_tts_media": 4.053448677062988,
+  "nisqa_tts_peor_ventana": 4.053448677062988,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.05
+   ]
+  ],
+  "pausa_max_s": 0.76,
+  "pausa_media_s": 0.6950000000000001,
+  "transcripcion": "Son las 3 y 17 de la mañana. Te despierta la vibración del teléfono, pero no hay ninguna notificación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.631762652705061,
+  "pausas": [
+   {
+    "tras": "mañana",
+    "punt": ".",
+    "dur": 0.76,
+    "en_s": 2.2,
+    "rara": false,
+    "_idx": 7
+   },
+   {
+    "tras": "teléfono",
+    "punt": "...",
+    "dur": 0.63,
+    "en_s": 4.79,
+    "rara": false,
+    "_idx": 13
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.020 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.274
+ },
+ {
+  "archivo": "f1_t6.wav",
+  "duracion_s": 7.36,
+  "pico_dbfs": -4.136856805843133,
+  "clipping_muestras": 0,
+  "lufs": -19.174360682775795,
+  "clics": 0,
+  "silencio_inicio_s": 0.11,
+  "silencio_final_s": 0.14,
+  "piso_ruido_db_rel": -66.37471771240234,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 4.522675029026836,
+  "f0_mediana_hz": 95.69508853433881,
+  "f0_std_st": 2.5170525293633506,
+  "f0_rango_st": 8.36007884355339,
+  "jitter_pct": 2.9875622180981365,
+  "shimmer_pct": 9.294027456090255,
+  "hnr_db": 11.772279864523567,
+  "dnsmos_sig": 3.700812338058575,
+  "dnsmos_bak": 4.217596587063317,
+  "dnsmos_ovrl": 3.536699764043118,
+  "dnsmos_p808": 4.2254862785339355,
+  "dnsmos_sig_min": 3.6847662482740686,
+  "dnsmos_ovrl_min": 3.5273702779851104,
+  "nisqa_tts_total": 4.206538200378418,
+  "nisqa_tts_media": 4.430156707763672,
+  "nisqa_tts_peor_ventana": 4.430156707763672,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.43
+   ]
+  ],
+  "pausa_max_s": 0.89,
+  "pausa_media_s": 0.79,
+  "transcripcion": "Son las 3 y 17 de la mañana. Te despierta la vibración del teléfono, pero no hay ninguna notificación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.5743944636678195,
+  "pausas": [
+   {
+    "tras": "mañana",
+    "punt": ".",
+    "dur": 0.69,
+    "en_s": 2.14,
+    "rara": false,
+    "_idx": 7
+   },
+   {
+    "tras": "teléfono",
+    "punt": "...",
+    "dur": 0.89,
+    "en_s": 4.62,
+    "rara": false,
+    "_idx": 13
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [],
+  "aprobado": true,
+  "nota": 20.415
+ }
+]

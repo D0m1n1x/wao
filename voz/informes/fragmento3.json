@@ -1,0 +1,369 @@
+[
+ {
+  "archivo": "f3_t1.wav",
+  "duracion_s": 4.88,
+  "pico_dbfs": -4.302307324893992,
+  "clipping_muestras": 0,
+  "lufs": -20.275793712077906,
+  "clics": 0,
+  "silencio_inicio_s": 1.3800000000000001,
+  "silencio_final_s": 0.04,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.697250772398938,
+  "f0_mediana_hz": 98.23508198470765,
+  "f0_std_st": 2.4863083012354257,
+  "f0_rango_st": 8.549418708960818,
+  "jitter_pct": 3.5609693110620446,
+  "shimmer_pct": 9.94673821516952,
+  "hnr_db": 10.315694979507487,
+  "dnsmos_sig": 3.7141067747191836,
+  "dnsmos_bak": 4.199848774923873,
+  "dnsmos_ovrl": 3.518013130308152,
+  "dnsmos_p808": 4.019216060638428,
+  "dnsmos_sig_min": 3.7141067747191836,
+  "dnsmos_ovrl_min": 3.518013130308152,
+  "nisqa_tts_total": 4.6190385818481445,
+  "nisqa_tts_media": 4.6190385818481445,
+  "nisqa_tts_peor_ventana": 4.6190385818481445,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.62
+   ]
+  ],
+  "pausa_max_s": 0.46,
+  "pausa_media_s": 0.46,
+  "transcripcion": "Tomada hace cinco minutos, desde dentro de tu habitación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 4.524886877828054,
+  "pausas": [
+   {
+    "tras": "minutos",
+    "punt": "...",
+    "dur": 0.46,
+    "en_s": 2.94,
+    "rara": false,
+    "_idx": 3
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.486 (objetivo >= 2.5)",
+   "jitter_pct=3.561 (objetivo <= 3.0)",
+   "silencio_inicio_s=1.380 (objetivo <= 0.8)"
+  ],
+  "aprobado": false,
+  "nota": 19.628
+ },
+ {
+  "archivo": "f3_t2.wav",
+  "duracion_s": 3.76,
+  "pico_dbfs": -3.254545937319974,
+  "clipping_muestras": 0,
+  "lufs": -19.403772419140928,
+  "clics": 0,
+  "silencio_inicio_s": 0.07,
+  "silencio_final_s": 0.08,
+  "piso_ruido_db_rel": -64.78243255615234,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.283545806913269,
+  "f0_mediana_hz": 98.30110870168794,
+  "f0_std_st": 2.501303700532622,
+  "f0_rango_st": 8.377895282046516,
+  "jitter_pct": 3.4611453859339667,
+  "shimmer_pct": 8.49725138291612,
+  "hnr_db": 11.36505176283976,
+  "dnsmos_sig": 3.664168455339422,
+  "dnsmos_bak": 4.17766958389499,
+  "dnsmos_ovrl": 3.455098597104192,
+  "dnsmos_p808": 3.8899447917938232,
+  "dnsmos_sig_min": 3.6483022713371946,
+  "dnsmos_ovrl_min": 3.438558321681569,
+  "nisqa_tts_total": 4.2756667137146,
+  "nisqa_tts_media": 4.2756667137146,
+  "nisqa_tts_peor_ventana": 4.2756667137146,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.28
+   ]
+  ],
+  "pausa_max_s": 0.55,
+  "pausa_media_s": 0.55,
+  "transcripcion": "tomada hace cinco minutos, desde dentro de tu habitación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.230529595015576,
+  "pausas": [
+   {
+    "tras": "minutos",
+    "punt": "...",
+    "dur": 0.55,
+    "en_s": 1.62,
+    "rara": false,
+    "_idx": 3
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.461 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.737
+ },
+ {
+  "archivo": "f3_t3.wav",
+  "duracion_s": 4.0,
+  "pico_dbfs": -2.498774720584813,
+  "clipping_muestras": 0,
+  "lufs": -19.658490086317467,
+  "clics": 0,
+  "silencio_inicio_s": 0.08,
+  "silencio_final_s": 0.21,
+  "piso_ruido_db_rel": -67.09583282470703,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.9800412656855837,
+  "f0_mediana_hz": 98.06692649844902,
+  "f0_std_st": 2.1569599436199764,
+  "f0_rango_st": 7.047543564681753,
+  "jitter_pct": 3.346753858784627,
+  "shimmer_pct": 8.41313117123882,
+  "hnr_db": 11.3052333959487,
+  "dnsmos_sig": 3.705694090278839,
+  "dnsmos_bak": 4.183073041176595,
+  "dnsmos_ovrl": 3.506520694362854,
+  "dnsmos_p808": 4.0870256423950195,
+  "dnsmos_sig_min": 3.7002732851517375,
+  "dnsmos_ovrl_min": 3.497353468007064,
+  "nisqa_tts_total": 4.2190937995910645,
+  "nisqa_tts_media": 4.2190937995910645,
+  "nisqa_tts_peor_ventana": 4.2190937995910645,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.22
+   ]
+  ],
+  "pausa_max_s": 0.52,
+  "pausa_media_s": 0.52,
+  "transcripcion": "Tomada hace cinco minutos, desde dentro de tu habitación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.747126436781609,
+  "pausas": [
+   {
+    "tras": "minutos",
+    "punt": "...",
+    "dur": 0.52,
+    "en_s": 1.68,
+    "rara": false,
+    "_idx": 3
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.157 (objetivo >= 2.5)",
+   "f0_rango_st=7.048 (objetivo >= 8.0)",
+   "jitter_pct=3.347 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.967
+ },
+ {
+  "archivo": "f3_t4.wav",
+  "duracion_s": 4.24,
+  "pico_dbfs": -3.815120408482576,
+  "clipping_muestras": 0,
+  "lufs": -19.837038248259596,
+  "clics": 0,
+  "silencio_inicio_s": 0.47000000000000003,
+  "silencio_final_s": 0.26,
+  "piso_ruido_db_rel": -70.49859619140625,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.3446321444337155,
+  "f0_mediana_hz": 93.90502219485927,
+  "f0_std_st": 1.6974120748650368,
+  "f0_rango_st": 5.3854953328485795,
+  "jitter_pct": 3.1444967361640965,
+  "shimmer_pct": 9.576226872489766,
+  "hnr_db": 11.29674390416784,
+  "dnsmos_sig": 3.6971028461945186,
+  "dnsmos_bak": 4.17687943839431,
+  "dnsmos_ovrl": 3.4799461802066562,
+  "dnsmos_p808": 3.96870756149292,
+  "dnsmos_sig_min": 3.681070219821426,
+  "dnsmos_ovrl_min": 3.4761022918855913,
+  "nisqa_tts_total": 4.320644855499268,
+  "nisqa_tts_media": 4.320644855499268,
+  "nisqa_tts_peor_ventana": 4.320644855499268,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.32
+   ]
+  ],
+  "pausa_max_s": 0.43,
+  "pausa_media_s": 0.43,
+  "transcripcion": "Tomada hace cinco minutos, desde dentro de tu habitación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.2493438320209975,
+  "pausas": [
+   {
+    "tras": "minutos",
+    "punt": "...",
+    "dur": 0.43,
+    "en_s": 2.04,
+    "rara": false,
+    "_idx": 3
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=1.697 (objetivo >= 2.5)",
+   "f0_rango_st=5.385 (objetivo >= 8.0)",
+   "jitter_pct=3.144 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.586
+ },
+ {
+  "archivo": "f3_t5.wav",
+  "duracion_s": 3.92,
+  "pico_dbfs": -3.5558208655915853,
+  "clipping_muestras": 0,
+  "lufs": -19.361448138407216,
+  "clics": 0,
+  "silencio_inicio_s": 0.05,
+  "silencio_final_s": 0.14,
+  "piso_ruido_db_rel": -64.01075744628906,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.038311601972005,
+  "f0_mediana_hz": 97.08578563916195,
+  "f0_std_st": 2.443190978480268,
+  "f0_rango_st": 7.899133215951718,
+  "jitter_pct": 3.0945138949427444,
+  "shimmer_pct": 8.693638757160345,
+  "hnr_db": 11.25829197730611,
+  "dnsmos_sig": 3.699242890646078,
+  "dnsmos_bak": 4.192346805317747,
+  "dnsmos_ovrl": 3.4927990554808392,
+  "dnsmos_p808": 4.034241199493408,
+  "dnsmos_sig_min": 3.6869067616668283,
+  "dnsmos_ovrl_min": 3.4771719387956543,
+  "nisqa_tts_total": 3.8479721546173096,
+  "nisqa_tts_media": 3.8479721546173096,
+  "nisqa_tts_peor_ventana": 3.8479721546173096,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.85
+   ]
+  ],
+  "pausa_max_s": 0.61,
+  "pausa_media_s": 0.61,
+  "transcripcion": "tomada hace cinco minutos, desde dentro de tu habitación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.042296072507553,
+  "pausas": [
+   {
+    "tras": "minutos",
+    "punt": "...",
+    "dur": 0.61,
+    "en_s": 1.62,
+    "rara": false,
+    "_idx": 3
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.848 (objetivo >= 4.0)",
+   "f0_std_st=2.443 (objetivo >= 2.5)",
+   "f0_rango_st=7.899 (objetivo >= 8.0)",
+   "jitter_pct=3.095 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.314
+ },
+ {
+  "archivo": "f3_t6.wav",
+  "duracion_s": 3.84,
+  "pico_dbfs": -3.5558208655915853,
+  "clipping_muestras": 0,
+  "lufs": -18.630739134364273,
+  "clics": 0,
+  "silencio_inicio_s": 0.08,
+  "silencio_final_s": 0.15,
+  "piso_ruido_db_rel": -66.9616470336914,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 1.9576990229113402,
+  "f0_mediana_hz": 105.2878469788215,
+  "f0_std_st": 2.6587369835165946,
+  "f0_rango_st": 9.028601702075665,
+  "jitter_pct": 2.7663923766025906,
+  "shimmer_pct": 8.853134747651806,
+  "hnr_db": 11.90231801216388,
+  "dnsmos_sig": 3.6273196122447025,
+  "dnsmos_bak": 4.1730209491135595,
+  "dnsmos_ovrl": 3.4168014717390314,
+  "dnsmos_p808": 4.022736549377441,
+  "dnsmos_sig_min": 3.6114667690395463,
+  "dnsmos_ovrl_min": 3.3960696807128885,
+  "nisqa_tts_total": 4.2100300788879395,
+  "nisqa_tts_media": 4.2100300788879395,
+  "nisqa_tts_peor_ventana": 4.2100300788879395,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.21
+   ]
+  ],
+  "pausa_max_s": 0.51,
+  "pausa_media_s": 0.51,
+  "transcripcion": "tomada hace cinco minutos, desde dentro de tu habitación.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.006006006006006,
+  "pausas": [
+   {
+    "tras": "minutos",
+    "punt": "...",
+    "dur": 0.51,
+    "en_s": 1.7,
+    "rara": false,
+    "_idx": 3
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [],
+  "aprobado": true,
+  "nota": 19.872
+ }
+]

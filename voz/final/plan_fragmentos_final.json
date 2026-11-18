@@ -1,0 +1,24 @@
+{
+ "fragmentos": [
+  {
+   "wav": "tomas/r5/f1_t1.wav",
+   "pausa_despues": 0.75
+  },
+  {
+   "wav": "tomas/r5/f2_t9.wav",
+   "pausa_despues": 0.6
+  },
+  {
+   "wav": "tomas/r5/f3_t6.wav",
+   "pausa_despues": 0.85
+  },
+  {
+   "wav": "tomas/r5/f4_t7.wav",
+   "pausa_despues": 0.65
+  },
+  {
+   "wav": "tomas/r5/f5_t4.wav",
+   "pausa_despues": 0
+  }
+ ]
+}

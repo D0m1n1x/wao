@@ -1,0 +1,930 @@
+[
+ {
+  "archivo": "f2_t1.wav",
+  "duracion_s": 6.24,
+  "pico_dbfs": -4.191657553075199,
+  "clipping_muestras": 0,
+  "lufs": -20.342370988874467,
+  "clics": 0,
+  "silencio_inicio_s": 0.14,
+  "silencio_final_s": 0.1,
+  "piso_ruido_db_rel": -66.66817474365234,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.3477782891283177,
+  "f0_mediana_hz": 95.49990207985053,
+  "f0_std_st": 2.5344484640072706,
+  "f0_rango_st": 8.568282844141274,
+  "jitter_pct": 3.1968172042593097,
+  "shimmer_pct": 8.149438132888816,
+  "hnr_db": 12.078925761700587,
+  "dnsmos_sig": 3.6591148848950987,
+  "dnsmos_bak": 4.206364609503946,
+  "dnsmos_ovrl": 3.47927057736049,
+  "dnsmos_p808": 4.34483003616333,
+  "dnsmos_sig_min": 3.6166528105196525,
+  "dnsmos_ovrl_min": 3.4336172786912,
+  "nisqa_tts_total": 4.081974029541016,
+  "nisqa_tts_media": 4.298591613769531,
+  "nisqa_tts_peor_ventana": 4.298591613769531,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.3
+   ]
+  ],
+  "pausa_max_s": 0.77,
+  "pausa_media_s": 0.6766666666666667,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.7007125890736345,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.58,
+    "en_s": 1.12,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.68,
+    "en_s": 3.63,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.77,
+    "en_s": 4.85,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.197 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.583
+ },
+ {
+  "archivo": "f2_t2.wav",
+  "duracion_s": 5.2,
+  "pico_dbfs": -4.642974110299448,
+  "clipping_muestras": 0,
+  "lufs": -20.50192102702559,
+  "clics": 0,
+  "silencio_inicio_s": 0.07,
+  "silencio_final_s": 0.16,
+  "piso_ruido_db_rel": -63.108848571777344,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.981287927732158,
+  "f0_mediana_hz": 96.62769238020189,
+  "f0_std_st": 1.9058071574108737,
+  "f0_rango_st": 6.383653470125973,
+  "jitter_pct": 3.194527268578583,
+  "shimmer_pct": 8.170144350159447,
+  "hnr_db": 11.342067404223485,
+  "dnsmos_sig": 3.7192823502991903,
+  "dnsmos_bak": 4.215004852491254,
+  "dnsmos_ovrl": 3.537076895738694,
+  "dnsmos_p808": 4.277721405029297,
+  "dnsmos_sig_min": 3.7192823502991903,
+  "dnsmos_ovrl_min": 3.537076895738694,
+  "nisqa_tts_total": 4.2610697746276855,
+  "nisqa_tts_media": 4.2610697746276855,
+  "nisqa_tts_peor_ventana": 4.2610697746276855,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.26
+   ]
+  ],
+  "pausa_max_s": 0.56,
+  "pausa_media_s": 0.44333333333333336,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.201550387596899,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.33,
+    "en_s": 0.95,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.56,
+    "en_s": 2.95,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.44,
+    "en_s": 4.05,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=1.906 (objetivo >= 2.5)",
+   "f0_rango_st=6.384 (objetivo >= 8.0)",
+   "jitter_pct=3.195 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.53
+ },
+ {
+  "archivo": "f2_t3.wav",
+  "duracion_s": 5.04,
+  "pico_dbfs": -3.7104698699704293,
+  "clipping_muestras": 0,
+  "lufs": -19.89102727871894,
+  "clics": 0,
+  "silencio_inicio_s": 0.23,
+  "silencio_final_s": 0.04,
+  "piso_ruido_db_rel": -66.36583709716797,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.886718778422317,
+  "f0_mediana_hz": 97.63949108427198,
+  "f0_std_st": 2.027551858022928,
+  "f0_rango_st": 7.001172295090512,
+  "jitter_pct": 3.288375486527431,
+  "shimmer_pct": 10.020441659922128,
+  "hnr_db": 11.959120930253965,
+  "dnsmos_sig": 3.6397857892290557,
+  "dnsmos_bak": 4.187168228618484,
+  "dnsmos_ovrl": 3.4458070548399906,
+  "dnsmos_p808": 4.347905158996582,
+  "dnsmos_sig_min": 3.6397857892290557,
+  "dnsmos_ovrl_min": 3.4458070548399906,
+  "nisqa_tts_total": 4.725548267364502,
+  "nisqa_tts_media": 4.725548267364502,
+  "nisqa_tts_peor_ventana": 4.725548267364502,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.73
+   ]
+  ],
+  "pausa_max_s": 0.4,
+  "pausa_media_s": 0.36000000000000004,
+  "transcripcion": "Lo desbloqueas, y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.0606060606060606,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.33,
+    "en_s": 1.18,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.4,
+    "en_s": 3.24,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.35,
+    "en_s": 4.15,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.028 (objetivo >= 2.5)",
+   "f0_rango_st=7.001 (objetivo >= 8.0)",
+   "jitter_pct=3.288 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 20.64
+ },
+ {
+  "archivo": "f2_t4.wav",
+  "duracion_s": 5.92,
+  "pico_dbfs": -4.877742175318197,
+  "clipping_muestras": 0,
+  "lufs": -20.533979077129406,
+  "clics": 0,
+  "silencio_inicio_s": 0.1,
+  "silencio_final_s": 0.14,
+  "piso_ruido_db_rel": -65.21434020996094,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.6689288364818644,
+  "f0_mediana_hz": 94.75685422065669,
+  "f0_std_st": 2.4391608251924626,
+  "f0_rango_st": 8.367724898617432,
+  "jitter_pct": 2.9367278218065245,
+  "shimmer_pct": 9.200844288277949,
+  "hnr_db": 11.8012024010157,
+  "dnsmos_sig": 3.695689778724009,
+  "dnsmos_bak": 4.206389576351411,
+  "dnsmos_ovrl": 3.516340406515657,
+  "dnsmos_p808": 4.273416519165039,
+  "dnsmos_sig_min": 3.6402799348846595,
+  "dnsmos_ovrl_min": 3.450323763961981,
+  "nisqa_tts_total": 4.13790225982666,
+  "nisqa_tts_media": 4.13790225982666,
+  "nisqa_tts_peor_ventana": 4.13790225982666,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.14
+   ]
+  ],
+  "pausa_max_s": 0.73,
+  "pausa_media_s": 0.62,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.911330049261083,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.62,
+    "en_s": 1.02,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.73,
+    "en_s": 3.41,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.51,
+    "en_s": 4.69,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.439 (objetivo >= 2.5)"
+  ],
+  "aprobado": false,
+  "nota": 19.641
+ },
+ {
+  "archivo": "f2_t5.wav",
+  "duracion_s": 5.36,
+  "pico_dbfs": -3.815120408482576,
+  "clipping_muestras": 0,
+  "lufs": -21.018150552801604,
+  "clics": 0,
+  "silencio_inicio_s": 0.07,
+  "silencio_final_s": 0.05,
+  "piso_ruido_db_rel": -64.0208740234375,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.697460381237093,
+  "f0_mediana_hz": 95.02295531548378,
+  "f0_std_st": 1.9430220004460268,
+  "f0_rango_st": 6.669459538442798,
+  "jitter_pct": 2.9902072759950675,
+  "shimmer_pct": 10.433646636579576,
+  "hnr_db": 11.570605561965719,
+  "dnsmos_sig": 3.6521372784546253,
+  "dnsmos_bak": 4.196912925126364,
+  "dnsmos_ovrl": 3.460003334353398,
+  "dnsmos_p808": 4.342381477355957,
+  "dnsmos_sig_min": 3.6521372784546253,
+  "dnsmos_ovrl_min": 3.460003334353398,
+  "nisqa_tts_total": 3.89557147026062,
+  "nisqa_tts_media": 3.89557147026062,
+  "nisqa_tts_peor_ventana": 3.89557147026062,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.9
+   ]
+  ],
+  "pausa_max_s": 0.55,
+  "pausa_media_s": 0.4466666666666667,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.970149253731343,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.34,
+    "en_s": 1.0,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.55,
+    "en_s": 3.22,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.45,
+    "en_s": 4.33,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.896 (objetivo >= 4.0)",
+   "f0_std_st=1.943 (objetivo >= 2.5)",
+   "f0_rango_st=6.669 (objetivo >= 8.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.764
+ },
+ {
+  "archivo": "f2_t6.wav",
+  "duracion_s": 5.36,
+  "pico_dbfs": -4.585260345647856,
+  "clipping_muestras": 0,
+  "lufs": -20.883953914902822,
+  "clics": 0,
+  "silencio_inicio_s": 0.19,
+  "silencio_final_s": 0.14,
+  "piso_ruido_db_rel": -68.40587615966797,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.1494049698702753,
+  "f0_mediana_hz": 89.70138889020461,
+  "f0_std_st": 1.8360194044161067,
+  "f0_rango_st": 6.068337536408715,
+  "jitter_pct": 3.319779918148046,
+  "shimmer_pct": 9.711524835328417,
+  "hnr_db": 11.652612072794339,
+  "dnsmos_sig": 3.7073721719416013,
+  "dnsmos_bak": 4.219808379157791,
+  "dnsmos_ovrl": 3.5285052201435367,
+  "dnsmos_p808": 4.275897026062012,
+  "dnsmos_sig_min": 3.7073721719416013,
+  "dnsmos_ovrl_min": 3.5285052201435367,
+  "nisqa_tts_total": 4.00375509262085,
+  "nisqa_tts_media": 4.00375509262085,
+  "nisqa_tts_peor_ventana": 4.00375509262085,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.0
+   ]
+  ],
+  "pausa_max_s": 0.53,
+  "pausa_media_s": 0.37666666666666665,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.673758865248226,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.25,
+    "en_s": 1.17,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.53,
+    "en_s": 3.22,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.35,
+    "en_s": 4.32,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=1.836 (objetivo >= 2.5)",
+   "f0_rango_st=6.068 (objetivo >= 8.0)",
+   "jitter_pct=3.320 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 18.492
+ },
+ {
+  "archivo": "f2_t7.wav",
+  "duracion_s": 4.72,
+  "pico_dbfs": -3.9744990016585224,
+  "clipping_muestras": 0,
+  "lufs": -19.93663397666892,
+  "clics": 0,
+  "silencio_inicio_s": 0.03,
+  "silencio_final_s": 0.01,
+  "piso_ruido_db_rel": -64.48100280761719,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.837914535549647,
+  "f0_mediana_hz": 93.78719467206086,
+  "f0_std_st": 2.2879254592212654,
+  "f0_rango_st": 7.239028790443241,
+  "jitter_pct": 2.9670360240336637,
+  "shimmer_pct": 9.86775506682326,
+  "hnr_db": 11.735563787510822,
+  "dnsmos_sig": 3.694262603755654,
+  "dnsmos_bak": 4.193413204479789,
+  "dnsmos_ovrl": 3.5008940698106024,
+  "dnsmos_p808": 4.011878490447998,
+  "dnsmos_sig_min": 3.694262603755654,
+  "dnsmos_ovrl_min": 3.5008940698106024,
+  "nisqa_tts_total": 4.303898334503174,
+  "nisqa_tts_media": 4.303898334503174,
+  "nisqa_tts_peor_ventana": 4.303898334503174,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.3
+   ]
+  ],
+  "pausa_max_s": 0.35,
+  "pausa_media_s": 0.31666666666666665,
+  "transcripcion": "Lo desbloqueas, y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.366047745358091,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.33,
+    "en_s": 1.0,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.35,
+    "en_s": 3.05,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.27,
+    "en_s": 3.9,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.288 (objetivo >= 2.5)",
+   "f0_rango_st=7.239 (objetivo >= 8.0)",
+   "pausa_media_s=0.317 (objetivo rango (0.35, 0.95))"
+  ],
+  "aprobado": false,
+  "nota": 19.932
+ },
+ {
+  "archivo": "f2_t8.wav",
+  "duracion_s": 5.04,
+  "pico_dbfs": -4.818452596147022,
+  "clipping_muestras": 0,
+  "lufs": -21.272744037325687,
+  "clics": 0,
+  "silencio_inicio_s": 0.16,
+  "silencio_final_s": 0.17,
+  "piso_ruido_db_rel": -65.55567932128906,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 4.301423693257764,
+  "f0_mediana_hz": 88.23167188428373,
+  "f0_std_st": 1.682605892028508,
+  "f0_rango_st": 5.531931469324499,
+  "jitter_pct": 3.334056678110203,
+  "shimmer_pct": 8.994218377477466,
+  "hnr_db": 10.69877568423562,
+  "dnsmos_sig": 3.6900219579301012,
+  "dnsmos_bak": 4.200294361497546,
+  "dnsmos_ovrl": 3.510763194015465,
+  "dnsmos_p808": 4.268430233001709,
+  "dnsmos_sig_min": 3.6900219579301012,
+  "dnsmos_ovrl_min": 3.510763194015465,
+  "nisqa_tts_total": 4.003185272216797,
+  "nisqa_tts_media": 4.003185272216797,
+  "nisqa_tts_peor_ventana": 4.003185272216797,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.0
+   ]
+  ],
+  "pausa_max_s": 0.37,
+  "pausa_media_s": 0.32,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.88235294117647,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.25,
+    "en_s": 1.08,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.34,
+    "en_s": 3.07,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.37,
+    "en_s": 3.97,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=1.683 (objetivo >= 2.5)",
+   "f0_rango_st=5.532 (objetivo >= 8.0)",
+   "jitter_pct=3.334 (objetivo <= 3.0)",
+   "pausa_media_s=0.320 (objetivo rango (0.35, 0.95))"
+  ],
+  "aprobado": false,
+  "nota": 18.431
+ },
+ {
+  "archivo": "f2_t9.wav",
+  "duracion_s": 5.68,
+  "pico_dbfs": -3.205333966438216,
+  "clipping_muestras": 0,
+  "lufs": -19.763805522496845,
+  "clics": 0,
+  "silencio_inicio_s": 0.19,
+  "silencio_final_s": 0.14,
+  "piso_ruido_db_rel": -66.90673065185547,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 2.092819192728527,
+  "f0_mediana_hz": 97.99800664102561,
+  "f0_std_st": 2.6647503444321377,
+  "f0_rango_st": 9.487634734922871,
+  "jitter_pct": 3.024538513912889,
+  "shimmer_pct": 8.859208849632088,
+  "hnr_db": 12.936230865868106,
+  "dnsmos_sig": 3.69709527452002,
+  "dnsmos_bak": 4.200839360905141,
+  "dnsmos_ovrl": 3.521451861016759,
+  "dnsmos_p808": 4.119997978210449,
+  "dnsmos_sig_min": 3.6907884299925175,
+  "dnsmos_ovrl_min": 3.5122637989811927,
+  "nisqa_tts_total": 4.475478649139404,
+  "nisqa_tts_media": 4.475478649139404,
+  "nisqa_tts_peor_ventana": 4.475478649139404,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.48
+   ]
+  ],
+  "pausa_max_s": 0.67,
+  "pausa_media_s": 0.44,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.5045871559633035,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.23,
+    "en_s": 1.14,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.67,
+    "en_s": 3.36,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.42,
+    "en_s": 4.57,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.025 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 20.407
+ },
+ {
+  "archivo": "f2_t10.wav",
+  "duracion_s": 5.84,
+  "pico_dbfs": -4.302307324893992,
+  "clipping_muestras": 0,
+  "lufs": -19.82751484948438,
+  "clics": 0,
+  "silencio_inicio_s": 0.65,
+  "silencio_final_s": 0.14,
+  "piso_ruido_db_rel": -80.0,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 4.621691863815137,
+  "f0_mediana_hz": 93.53182102743823,
+  "f0_std_st": 2.3209611020151155,
+  "f0_rango_st": 8.183065945093853,
+  "jitter_pct": 2.9410857280427565,
+  "shimmer_pct": 8.033839501895923,
+  "hnr_db": 12.692037862410428,
+  "dnsmos_sig": 3.663373427804224,
+  "dnsmos_bak": 4.201875658992948,
+  "dnsmos_ovrl": 3.4683109862903527,
+  "dnsmos_p808": 4.283775806427002,
+  "dnsmos_sig_min": 3.6526420986101864,
+  "dnsmos_ovrl_min": 3.452827404412228,
+  "nisqa_tts_total": 4.257843494415283,
+  "nisqa_tts_media": 4.257843494415283,
+  "nisqa_tts_peor_ventana": 4.257843494415283,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.26
+   ]
+  ],
+  "pausa_max_s": 0.4,
+  "pausa_media_s": 0.36999999999999994,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.073995771670191,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.34,
+    "en_s": 1.6,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.4,
+    "en_s": 3.75,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.37,
+    "en_s": 4.74,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "f0_std_st=2.321 (objetivo >= 2.5)"
+  ],
+  "aprobado": false,
+  "nota": 19.933
+ },
+ {
+  "archivo": "f2_t11.wav",
+  "duracion_s": 5.6,
+  "pico_dbfs": -3.3040383198048873,
+  "clipping_muestras": 0,
+  "lufs": -21.065413569773128,
+  "clics": 0,
+  "silencio_inicio_s": 0.1,
+  "silencio_final_s": 0.08,
+  "piso_ruido_db_rel": -66.33406066894531,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.6611456112107597,
+  "f0_mediana_hz": 88.76814075598459,
+  "f0_std_st": 1.7133365111000596,
+  "f0_rango_st": 5.785455328858128,
+  "jitter_pct": 2.829210216972956,
+  "shimmer_pct": 9.277561449775655,
+  "hnr_db": 12.286999865066182,
+  "dnsmos_sig": 3.6943174757665327,
+  "dnsmos_bak": 4.2203829810633415,
+  "dnsmos_ovrl": 3.5059172905913405,
+  "dnsmos_p808": 4.219124794006348,
+  "dnsmos_sig_min": 3.6834870842239753,
+  "dnsmos_ovrl_min": 3.495330351450198,
+  "nisqa_tts_total": 3.937249183654785,
+  "nisqa_tts_media": 3.937249183654785,
+  "nisqa_tts_peor_ventana": 3.937249183654785,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.94
+   ]
+  ],
+  "pausa_max_s": 0.62,
+  "pausa_media_s": 0.5299999999999999,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.985037406483791,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.38,
+    "en_s": 1.07,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.62,
+    "en_s": 3.2,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.59,
+    "en_s": 4.38,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.937 (objetivo >= 4.0)",
+   "f0_std_st=1.713 (objetivo >= 2.5)",
+   "f0_rango_st=5.785 (objetivo >= 8.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.216
+ },
+ {
+  "archivo": "f2_t12.wav",
+  "duracion_s": 6.16,
+  "pico_dbfs": -4.877742175318197,
+  "clipping_muestras": 0,
+  "lufs": -21.250936106847714,
+  "clics": 0,
+  "silencio_inicio_s": 0.11,
+  "silencio_final_s": 0.07,
+  "piso_ruido_db_rel": -66.21581268310547,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.087685016871788,
+  "f0_mediana_hz": 93.17036823391062,
+  "f0_std_st": 2.5420492884227928,
+  "f0_rango_st": 7.852746062046286,
+  "jitter_pct": 2.8650936747489384,
+  "shimmer_pct": 8.923867310440837,
+  "hnr_db": 12.165934790384465,
+  "dnsmos_sig": 3.660334140704164,
+  "dnsmos_bak": 4.202341412994218,
+  "dnsmos_ovrl": 3.470637280732389,
+  "dnsmos_p808": 4.279407978057861,
+  "dnsmos_sig_min": 3.646402247094315,
+  "dnsmos_ovrl_min": 3.4580793248728514,
+  "nisqa_tts_total": 3.8358511924743652,
+  "nisqa_tts_media": 3.951740026473999,
+  "nisqa_tts_peor_ventana": 3.951740026473999,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.95
+   ]
+  ],
+  "pausa_max_s": 0.72,
+  "pausa_media_s": 0.6566666666666666,
+  "transcripcion": "Lo desbloqueas y en tu galería hay una foto nueva. Eres tú, dormido.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 5.727923627684964,
+  "pausas": [
+   {
+    "tras": "desbloqueas",
+    "punt": ",",
+    "dur": 0.55,
+    "en_s": 1.03,
+    "rara": false,
+    "_idx": 1
+   },
+   {
+    "tras": "nueva",
+    "punt": ".",
+    "dur": 0.7,
+    "en_s": 3.52,
+    "rara": false,
+    "_idx": 9
+   },
+   {
+    "tras": "tú",
+    "punt": ".",
+    "dur": 0.72,
+    "en_s": 4.79,
+    "rara": false,
+    "_idx": 11
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.952 (objetivo >= 4.0)",
+   "f0_rango_st=7.853 (objetivo >= 8.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.166
+ }
+]

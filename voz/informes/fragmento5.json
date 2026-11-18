@@ -1,0 +1,405 @@
+[
+ {
+  "archivo": "f5_t1.wav",
+  "duracion_s": 6.48,
+  "pico_dbfs": -4.028281771788894,
+  "clipping_muestras": 0,
+  "lufs": -20.097484489987483,
+  "clics": 0,
+  "silencio_inicio_s": 0.13,
+  "silencio_final_s": 0.08,
+  "piso_ruido_db_rel": -63.05672073364258,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 4.256190459737416,
+  "f0_mediana_hz": 91.9806980384296,
+  "f0_std_st": 2.815383837241286,
+  "f0_rango_st": 9.708219515699449,
+  "jitter_pct": 2.9640818619845146,
+  "shimmer_pct": 8.833032201526883,
+  "hnr_db": 11.366228799915504,
+  "dnsmos_sig": 3.7209080520257776,
+  "dnsmos_bak": 4.16315228608599,
+  "dnsmos_ovrl": 3.514920563332422,
+  "dnsmos_p808": 4.141794681549072,
+  "dnsmos_sig_min": 3.7174550427201436,
+  "dnsmos_ovrl_min": 3.505363787790368,
+  "nisqa_tts_total": 3.4872629642486572,
+  "nisqa_tts_media": 4.012078285217285,
+  "nisqa_tts_peor_ventana": 4.012078285217285,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.01
+   ]
+  ],
+  "pausa_max_s": 0.64,
+  "pausa_media_s": 0.5900000000000001,
+  "transcripcion": "Quédate hasta el final, porque te voy a enseñar a descubrir si alguien más tiene acceso a él, ahora mismo.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.792452830188679,
+  "pausas": [
+   {
+    "tras": "final",
+    "punt": ",",
+    "dur": 0.54,
+    "en_s": 1.18,
+    "rara": false,
+    "_idx": 3
+   },
+   {
+    "tras": "él",
+    "punt": ".",
+    "dur": 0.64,
+    "en_s": 5.09,
+    "rara": false,
+    "_idx": 17
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [],
+  "aprobado": true,
+  "nota": 19.154
+ },
+ {
+  "archivo": "f5_t2.wav",
+  "duracion_s": 6.08,
+  "pico_dbfs": -4.358165328485434,
+  "clipping_muestras": 0,
+  "lufs": -20.13793161145443,
+  "clics": 0,
+  "silencio_inicio_s": 0.05,
+  "silencio_final_s": 0.07,
+  "piso_ruido_db_rel": -60.026405334472656,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.1496447880622434,
+  "f0_mediana_hz": 93.67819782490172,
+  "f0_std_st": 2.823641536485861,
+  "f0_rango_st": 9.808741293835583,
+  "jitter_pct": 3.164180831905366,
+  "shimmer_pct": 8.372914957065241,
+  "hnr_db": 11.148708621646295,
+  "dnsmos_sig": 3.7245722136050765,
+  "dnsmos_bak": 4.211533818765752,
+  "dnsmos_ovrl": 3.548209592948984,
+  "dnsmos_p808": 4.303218364715576,
+  "dnsmos_sig_min": 3.7076941566154544,
+  "dnsmos_ovrl_min": 3.5311757644186588,
+  "nisqa_tts_total": 4.436855792999268,
+  "nisqa_tts_media": 4.373787879943848,
+  "nisqa_tts_peor_ventana": 4.373787879943848,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.37
+   ]
+  ],
+  "pausa_max_s": 0.41,
+  "pausa_media_s": 0.365,
+  "transcripcion": "Quédate hasta el final, porque te voy a enseñar a descubrir si alguien más tiene acceso a él, ahora mismo.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.728971962616823,
+  "pausas": [
+   {
+    "tras": "final",
+    "punt": ",",
+    "dur": 0.32,
+    "en_s": 1.17,
+    "rara": false,
+    "_idx": 3
+   },
+   {
+    "tras": "él",
+    "punt": ".",
+    "dur": 0.41,
+    "en_s": 4.91,
+    "rara": false,
+    "_idx": 17
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "jitter_pct=3.164 (objetivo <= 3.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.955
+ },
+ {
+  "archivo": "f5_t3.wav",
+  "duracion_s": 6.56,
+  "pico_dbfs": -5.430387946878289,
+  "clipping_muestras": 0,
+  "lufs": -21.21581521720008,
+  "clics": 0,
+  "silencio_inicio_s": 0.14,
+  "silencio_final_s": 0.04,
+  "piso_ruido_db_rel": -63.54834747314453,
+  "f0_picos_pct": 0.5102040816326531,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 4.097014842715989,
+  "f0_mediana_hz": 94.58495643163631,
+  "f0_std_st": 2.859736902170295,
+  "f0_rango_st": 9.199038239710323,
+  "jitter_pct": 2.765028913127552,
+  "shimmer_pct": 9.069873831290154,
+  "hnr_db": 11.90488592258377,
+  "dnsmos_sig": 3.7178108212724714,
+  "dnsmos_bak": 4.201679164500524,
+  "dnsmos_ovrl": 3.5286574589123525,
+  "dnsmos_p808": 4.329687595367432,
+  "dnsmos_sig_min": 3.708286291534217,
+  "dnsmos_ovrl_min": 3.5154870208228712,
+  "nisqa_tts_total": 4.0067620277404785,
+  "nisqa_tts_media": 3.8217482566833496,
+  "nisqa_tts_peor_ventana": 3.8217482566833496,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.82
+   ]
+  ],
+  "pausa_max_s": 0.56,
+  "pausa_media_s": 0.545,
+  "transcripcion": "Quédate hasta el final, porque te voy a enseñar a descubrir si alguien más tiene acceso a él, ahora mismo.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.581352833638026,
+  "pausas": [
+   {
+    "tras": "final",
+    "punt": ",",
+    "dur": 0.53,
+    "en_s": 1.28,
+    "rara": false,
+    "_idx": 3
+   },
+   {
+    "tras": "él",
+    "punt": ".",
+    "dur": 0.56,
+    "en_s": 5.27,
+    "rara": false,
+    "_idx": 17
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.822 (objetivo >= 4.0)"
+  ],
+  "aprobado": false,
+  "nota": 19.018
+ },
+ {
+  "archivo": "f5_t4.wav",
+  "duracion_s": 6.4,
+  "pico_dbfs": -4.759564983313603,
+  "clipping_muestras": 0,
+  "lufs": -19.607258426198133,
+  "clics": 0,
+  "silencio_inicio_s": 0.07,
+  "silencio_final_s": 0.25,
+  "piso_ruido_db_rel": -64.91299438476562,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.6396980552664715,
+  "f0_mediana_hz": 94.32689156867275,
+  "f0_std_st": 2.806313348324669,
+  "f0_rango_st": 10.107945261765098,
+  "jitter_pct": 2.898678757542055,
+  "shimmer_pct": 8.72158854711679,
+  "hnr_db": 11.457265527174723,
+  "dnsmos_sig": 3.7179213913912075,
+  "dnsmos_bak": 4.157701748242062,
+  "dnsmos_ovrl": 3.5014844756876404,
+  "dnsmos_p808": 4.238447666168213,
+  "dnsmos_sig_min": 3.7161816215936656,
+  "dnsmos_ovrl_min": 3.4941339743661435,
+  "nisqa_tts_total": 4.26385498046875,
+  "nisqa_tts_media": 4.285421371459961,
+  "nisqa_tts_peor_ventana": 4.285421371459961,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.29
+   ]
+  ],
+  "pausa_max_s": 0.54,
+  "pausa_media_s": 0.475,
+  "transcripcion": "Quédate hasta el final, porque te voy a enseñar a descubrir si alguien más tiene acceso a él, ahora mismo.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.605504587155963,
+  "pausas": [
+   {
+    "tras": "final",
+    "punt": ",",
+    "dur": 0.54,
+    "en_s": 1.24,
+    "rara": false,
+    "_idx": 3
+   },
+   {
+    "tras": "él",
+    "punt": ".",
+    "dur": 0.41,
+    "en_s": 5.02,
+    "rara": false,
+    "_idx": 17
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [],
+  "aprobado": true,
+  "nota": 20.139
+ },
+ {
+  "archivo": "f5_t5.wav",
+  "duracion_s": 6.24,
+  "pico_dbfs": -5.494021122482731,
+  "clipping_muestras": 0,
+  "lufs": -20.475879469463468,
+  "clics": 0,
+  "silencio_inicio_s": 0.08,
+  "silencio_final_s": 0.13,
+  "piso_ruido_db_rel": -62.76347732543945,
+  "f0_picos_pct": 0.0,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.961806833643797,
+  "f0_mediana_hz": 95.43152643283216,
+  "f0_std_st": 2.879240064367693,
+  "f0_rango_st": 10.062492543235926,
+  "jitter_pct": 2.9467497589524867,
+  "shimmer_pct": 7.5472391374237375,
+  "hnr_db": 11.443192975240796,
+  "dnsmos_sig": 3.719655653836149,
+  "dnsmos_bak": 4.188259797815011,
+  "dnsmos_ovrl": 3.522052350061499,
+  "dnsmos_p808": 4.289796352386475,
+  "dnsmos_sig_min": 3.7092781744546746,
+  "dnsmos_ovrl_min": 3.511482478989938,
+  "nisqa_tts_total": 3.934070348739624,
+  "nisqa_tts_media": 3.596015453338623,
+  "nisqa_tts_peor_ventana": 3.596015453338623,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    3.6
+   ]
+  ],
+  "pausa_max_s": 0.56,
+  "pausa_media_s": 0.465,
+  "transcripcion": "Quédate hasta el final, porque te voy a enseñar a descubrir si alguien más tiene acceso a él. Ahora mismo.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.779661016949152,
+  "pausas": [
+   {
+    "tras": "final",
+    "punt": ",",
+    "dur": 0.37,
+    "en_s": 1.13,
+    "rara": false,
+    "_idx": 3
+   },
+   {
+    "tras": "él",
+    "punt": ".",
+    "dur": 0.56,
+    "en_s": 4.83,
+    "rara": false,
+    "_idx": 17
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [
+   "nisqa_tts_media=3.596 (objetivo >= 4.0)",
+   "nisqa_tts_peor_ventana=3.596 (objetivo >= 3.6)"
+  ],
+  "aprobado": false,
+  "nota": 18.021
+ },
+ {
+  "archivo": "f5_t6.wav",
+  "duracion_s": 6.64,
+  "pico_dbfs": -4.4709706753517615,
+  "clipping_muestras": 0,
+  "lufs": -19.500390093519183,
+  "clics": 0,
+  "silencio_inicio_s": 0.09,
+  "silencio_final_s": 0.21,
+  "piso_ruido_db_rel": -60.897029876708984,
+  "f0_picos_pct": 1.3089005235602094,
+  "f0_fry_pct": 0.0,
+  "salto_volumen_db": 3.6176830485501625,
+  "f0_mediana_hz": 95.17693302876307,
+  "f0_std_st": 3.190106943396529,
+  "f0_rango_st": 11.116951924434296,
+  "jitter_pct": 2.871146160704001,
+  "shimmer_pct": 7.813690203834457,
+  "hnr_db": 11.19620862825376,
+  "dnsmos_sig": 3.7323418712307563,
+  "dnsmos_bak": 4.21986920056105,
+  "dnsmos_ovrl": 3.5423923554637207,
+  "dnsmos_p808": 4.17599630355835,
+  "dnsmos_sig_min": 3.7266615914884946,
+  "dnsmos_ovrl_min": 3.5366374715972406,
+  "nisqa_tts_total": 3.9197330474853516,
+  "nisqa_tts_media": 4.200140476226807,
+  "nisqa_tts_peor_ventana": 4.200140476226807,
+  "nisqa_tts_peor_en_s": 0.0,
+  "nisqa_ventanas": [
+   [
+    0.0,
+    4.2
+   ]
+  ],
+  "pausa_max_s": 0.59,
+  "pausa_media_s": 0.525,
+  "transcripcion": "Quédate hasta el final, porque te voy a enseñar a descubrir si alguien más tiene acceso a él, ahora mismo.",
+  "wer": 0.0,
+  "errores": [],
+  "silabas_por_seg": 6.440071556350627,
+  "pausas": [
+   {
+    "tras": "final",
+    "punt": ",",
+    "dur": 0.46,
+    "en_s": 1.17,
+    "rara": false,
+    "_idx": 3
+   },
+   {
+    "tras": "él",
+    "punt": ".",
+    "dur": 0.59,
+    "en_s": 5.13,
+    "rara": false,
+    "_idx": 17
+   }
+  ],
+  "pausas_raras": 0,
+  "pausas_puntuacion_faltantes": 0,
+  "pausas_faltan_tras": [],
+  "fallos": [],
+  "aprobado": true,
+  "nota": 19.955
+ }
+]
